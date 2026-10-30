@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nameplate-maker.pages.dev/sitemap.xml
