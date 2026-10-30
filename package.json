@@ -1,0 +1,18 @@
+{
+  "name": "epix3d-nameplate-maker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Charleston3D Nameplate Maker: design a nameplate and download a print-ready 3MF or STL.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "npm run build && npm run serve",
+    "test": "npm run build && node --test \"test/*.test.mjs\"",
+    "test:snapshots": "npm run build && node scripts/snapshots.mjs --check",
+    "test:e2e": "npm run build && playwright test",
+    "check": "npm test && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}

@@ -1,0 +1,3903 @@
+{
+ "classic": {
+  "mh": {
+   "base": "5ed1675bf466c5c7:9d21263b128a948b",
+   "raised": "fefee722f45a9aa7:8b2f77bd4856d6c1"
+  },
+  "svg": "01c1327a9cda6693",
+  "f3": "22bfa90ce3283bac",
+  "f3s": "acd5a72aa32935a4",
+  "readme": "58c7d4e0aa72ebca",
+  "bbox": [
+   -89,
+   -30.5,
+   89,
+   30.5
+  ]
+ },
+ "pennant": {
+  "mh": {
+   "base": "d608f6ec32c4ce13:6d1081daf41428d6",
+   "raised": "4d53126b90c8d152:a1100766f962bda6"
+  },
+  "svg": "77c611d023d93b8b",
+  "f3": "e75f5f64b742ee61",
+  "f3s": "9553c3711f03fa39",
+  "readme": "e8f9a45441a822b0",
+  "bbox": [
+   -89,
+   -39.5,
+   89,
+   39.5
+  ]
+ },
+ "badge": {
+  "mh": {
+   "base": "859b07a59b8af062:91f0eec77a095af8",
+   "raised": "c9516f1ea180f0d7:0b4497ebdccbc7b5"
+  },
+  "svg": "1088873ab8230d55",
+  "f3": "f2d25414937f1aa9",
+  "f3s": "8a0761659f096fee",
+  "readme": "6a8c7ad03a43316e",
+  "bbox": [
+   -89,
+   -28,
+   89,
+   61.8
+  ]
+ },
+ "jersey": {
+  "mh": {
+   "base": "37d2c81e9fd48d06:d11322467d8b1154",
+   "raised": "7aac633b816d7314:13bfd04a0175383f"
+  },
+  "svg": "60f6367ffa2aa961",
+  "f3": "6e7a1ace7dead599",
+  "f3s": "8f299e997fb99c6c",
+  "readme": "8eba7d5365613436",
+  "bbox": [
+   -74,
+   -74,
+   74,
+   74
+  ]
+ },
+ "ticket": {
+  "mh": {
+   "base": "240a710173e6085e:645d5a98e66ed4a7",
+   "raised": "a7d739eed89e8e5f:6539684fd8239d07"
+  },
+  "svg": "a44bfd4e333fcb32",
+  "f3": "aa18b474f5bb49cb",
+  "f3s": "700da57bcf5aa200",
+  "readme": "82d0bf55e880d338",
+  "bbox": [
+   -89,
+   -38,
+   89,
+   38
+  ]
+ },
+ "marquee": {
+  "mh": {
+   "base": "40bba1f1648a757c:8988c840ea241c77",
+   "raised": "0c7310b298a1e8d0:3e7880cf347d8075"
+  },
+  "svg": "3ca2e50060c45f6f",
+  "f3": "c51c9991a960f252",
+  "f3s": "266060a9a6afb403",
+  "readme": "b3f8db9c50c19e0e",
+  "bbox": [
+   -89,
+   -34.5,
+   89,
+   34.5
+  ]
+ },
+ "license": {
+  "mh": {
+   "base": "6166f57f3deed0d8:f65639f8bb282da1",
+   "raised": "5cdddbcdad16e936:b75802a27727c63d"
+  },
+  "svg": "d20de863ff9780fb",
+  "f3": "dcb6bac7c32cd792",
+  "f3s": "da0c112c1c3bbf96",
+  "readme": "823a457862928925",
+  "bbox": [
+   -89,
+   -46.5,
+   89,
+   46.5
+  ]
+ },
+ "burst": {
+  "mh": {
+   "base": "3bbda0389110eea3:83969e835cf746db",
+   "panel": "1f6f72dd5551fb0d:cde2c2463efeb43b",
+   "accent": "e048836db7843fb9:d6fa6c7c3c857f40",
+   "bold": "93d68a3a8815d5ad:fef413676e1a221e",
+   "letters": "3be7b6459a509879:4e412ebbac7070e3"
+  },
+  "svg": "a8ce33eab94a61e3",
+  "f3": "4fc7f2da796342c7",
+  "f3s": "82901334c21a7512",
+  "readme": "de95513859a96513",
+  "bbox": [
+   -89,
+   -34.5,
+   89,
+   59.79599999999999
+  ]
+ },
+ "arch": {
+  "mh": {
+   "base": "311aae7c0a1e4763:29a5abcca82fb593",
+   "panel": "26bd7bf443c21dfc:f0f1b74854c1c8bd",
+   "accent": "67e22bb893b1af09:32c66df0f63b41aa",
+   "bold": "73980189cee09f39:c270ccc0b8672db2",
+   "letters": "2fb205beff0b46a5:4e412ebbac7070e3"
+  },
+  "svg": "f4ae79d07cf36c4d",
+  "f3": "48b59d3004f52752",
+  "f3s": "e8cf191df1450c94",
+  "readme": "4e61a706e81fbcbe",
+  "bbox": [
+   -89,
+   -38,
+   89,
+   78.8
+  ]
+ },
+ "bubble": {
+  "mh": {
+   "base": "f5b4cb21ac4c53a9:353ef52ab4c1133a",
+   "panel": "03cbd4d4bdaff2f0:c9b58a44a9736d70",
+   "accent": "671ca4a7c48b46f2:bf7de1d18d51673b",
+   "bold": "851260fe967ae5a9:b762dea9cea02136",
+   "letters": "52c3ced27812a48c:4e412ebbac7070e3"
+  },
+  "svg": "3305b6710a09e82b",
+  "f3": "d355b6b81e0723bf",
+  "f3s": "14c6eca77f7a2d61",
+  "readme": "430f3c6c2c565aa1",
+  "bbox": [
+   -89,
+   -36.5,
+   89,
+   60.836
+  ]
+ },
+ "crest": {
+  "mh": {
+   "base": "55a1751a57a6c16f:272f95780ce6b134",
+   "panel": "61e5180b31764edc:ee8d59467438f93b",
+   "accent": "aea587971bbb1dcb:158fd27df9ef042d",
+   "bold": "c8232cbe48d7fd0d:c395fc0e9ebbcc4d",
+   "letters": "abe0277ca4e60bf5:4e412ebbac7070e3"
+  },
+  "svg": "6bca9664bc301837",
+  "f3": "9db43a14f7dd0ada",
+  "f3s": "207afe47a678bb11",
+  "readme": "0da9159e394c26c0",
+  "bbox": [
+   -89,
+   -39.7,
+   89,
+   85.6
+  ]
+ },
+ "cruiser50": {
+  "mh": {
+   "base": "43cf6f78a9be56d1:cbef7e10e6453437",
+   "chrome": "027795e088b4ceee:9c8df8f5d419ca60",
+   "grille": "ea43eee84860efd9:db5100be2325d6aa",
+   "letters": "23718dbd03d0318d:646d84fff2dd8cdc",
+   "lights": "9617c27dd1e7c6df:fe1d4c9d6e9776ca",
+   "signals": "e844f187398073fd:b7d8dab2af6140b2",
+   "tires": "c244b3f9b35792c5:a3c0c96dd7ee5a50",
+   "glass": "88c8ed07b402ae83:21954d277ac8894e",
+   "accent": "64eb0ed2fdc44a45:fd1467388f1ad8ae"
+  },
+  "svg": "0ffeb970cb9ac456",
+  "f3": "dd1f59d1fd039481",
+  "f3s": "e9d6f45f3b389fcc",
+  "readme": "9cc4bbfbc26c91b7",
+  "bbox": [
+   -89,
+   -73.54545454545455,
+   89,
+   73.54545454545455
+  ]
+ },
+ "pickup50": {
+  "mh": {
+   "base": "4aec52b5181210f1:156b561ce20411ee",
+   "chrome": "b96349d15c5a22b3:37cfed6b2f1be70c",
+   "grille": "f28e9726e4ba911b:4743d858631a1031",
+   "letters": "9f9e401b2a696160:dd3a64ba64a597c2",
+   "lights": "87df8e381c7ddc9e:cb581cc0e77a85ec",
+   "signals": "19d63b759006928c:59c40ac3d0938827",
+   "tires": "5da1aaa23e8e8721:2035dccfe068aadf",
+   "glass": "c7d532706523c544:caa8dea27d7b165e"
+  },
+  "svg": "c08db9fc92dd73db",
+  "f3": "3c676265ccdc2c1a",
+  "f3s": "ae1afff1da9457b2",
+  "readme": "9ef86301473a31bf",
+  "bbox": [
+   -89,
+   -89.85858585858585,
+   89,
+   89.85858585858585
+  ]
+ },
+ "muscle60": {
+  "mh": {
+   "base": "d3fbcc7ae17ac525:0356f9833e969622",
+   "chrome": "8eeb0d6473ca9cc0:8b22da02c26e6872",
+   "grille": "df537c9a62316c33:56453211e56d0046",
+   "letters": "4e36d42f5a535175:fb2e289520e6f738",
+   "lights": "d0b6fafa15312e7e:9a86ce2587e01d08",
+   "signals": "d83d7177b1f5b197:44784ef721527e6a",
+   "tires": "433cdf3532008ade:cef2e2adf93b364c",
+   "glass": "ddfdc8a7ea87009e:cacc895c2c01f067",
+   "accent": "355de10ff6fec6e9:38a4b805591596f4"
+  },
+  "svg": "fd367a107b606e03",
+  "f3": "ddb1aece4a7ed4d8",
+  "f3s": "46cda9d79796870f",
+  "readme": "49bbd9ea9bf3fc1f",
+  "bbox": [
+   -89,
+   -68.42105263157895,
+   89,
+   68.42105263157895
+  ]
+ },
+ "classic70": {
+  "mh": {
+   "base": "e8cda51f7cc705db:0d7ee35756951238",
+   "chrome": "959df3976f2e456c:8c26c7cd477a9fef",
+   "grille": "eb8c31afb2f0cd45:cbc9e89e4541fbd7",
+   "letters": "315912bfe4c7f0f4:dd3a64ba64a597c2",
+   "lights": "070e2a83d427cb47:d7a1d4c68ee28247",
+   "signals": "2091bbcf23ba3663:92573bab8039248a",
+   "tires": "c2365b0077af981a:7b12eaa0c4fe4588",
+   "glass": "d4e181c78766a98b:6c8ba8b51a79ce4d",
+   "accent": "34cabc9a832ad16e:af39228865cca8d6"
+  },
+  "svg": "d858247cd288551d",
+  "f3": "87b7711d12cac26d",
+  "f3s": "3bc022b5a95d85fe",
+  "readme": "8b4b036c7f6100a6",
+  "bbox": [
+   -89,
+   -68.6,
+   89,
+   68.6
+  ]
+ },
+ "boxy80": {
+  "mh": {
+   "base": "2e44c32eed02f9c1:d17c80d3e234bd96",
+   "chrome": "237831b56411a099:fc930a67d5d4fad9",
+   "grille": "963584fa44c9135f:3b85143959d264aa",
+   "letters": "39d922500ae14597:fb2e289520e6f738",
+   "lights": "4025e84f63fabf55:c20d679dfad34d38",
+   "signals": "e77720ee8633f5e2:b7015434d5facca4",
+   "tires": "da7c57d8d3fe93f4:c3ed1f89be949a1d",
+   "glass": "d5dd91ccb1d8ba73:4a9078c19b901f0d"
+  },
+  "svg": "2470f561ef5e962d",
+  "f3": "a6f4a6830645c485",
+  "f3s": "7c90e4ffe51e89d5",
+  "readme": "32a142f5a657a884",
+  "bbox": [
+   -89,
+   -76.44318181818181,
+   89,
+   76.44318181818181
+  ]
+ },
+ "aero90": {
+  "mh": {
+   "base": "0fa979a402d6df09:b2674689cdd0e715",
+   "chrome": "d1a98557a368d396:3d311c198b85c07e",
+   "grille": "4d771dc1d1ba73d0:18cd9c173eb9ed56",
+   "letters": "59628f0c3527d7e0:646d84fff2dd8cdc",
+   "lights": "ff0302d798b62031:6641eba13f71ad56",
+   "signals": "8ca4661250b9ae14:8ebe88d56bab43f8",
+   "tires": "b1ca5fa225506a79:59041fea08a9a2a8",
+   "glass": "39125a58b3ca022d:0405b9de6bd95866"
+  },
+  "svg": "298627da1df43377",
+  "f3": "46b33fb5c96b84b0",
+  "f3s": "21d129c25d469731",
+  "readme": "e6588daa8d72ebe2",
+  "bbox": [
+   -89,
+   -73.71910112359551,
+   89,
+   73.71910112359551
+  ]
+ },
+ "truck": {
+  "mh": {
+   "base": "eefa913508789806:6923af5e7b636ff0",
+   "chrome": "93e352060874c6eb:0d6cc0b29a2021a6",
+   "grille": "b82ec77b30c954bf:623f81371a7f6a93",
+   "letters": "5b8ca129634380b9:fb2e289520e6f738",
+   "lights": "ef5a8513ccbe8cf6:c2e16fd992c77a1b",
+   "signals": "c56e6362f15061e9:6373515b2361bde4",
+   "tires": "1d2b6878918c2249:432a560eeb280946",
+   "glass": "e644fa9cbf961ccf:6c8ba8b51a79ce4d"
+  },
+  "svg": "d604f68ec2a404c0",
+  "f3": "d97f18ea6a86191f",
+  "f3s": "1bed43713dd49d59",
+  "readme": "103b65b7215952f6",
+  "bbox": [
+   -89,
+   -80.86956521739131,
+   89,
+   80.86956521739131
+  ]
+ },
+ "van": {
+  "mh": {
+   "base": "271f73c1e65d834a:c5a9cea70e49a766",
+   "chrome": "92d3f25a9d5bc44d:2acf80bd6f8e6cc1",
+   "grille": "c9b40af1f95c44e7:bf8871c89b87e679",
+   "letters": "4ed24fa28676a7dd:fb2e289520e6f738",
+   "lights": "394018e5f4b9fcb3:4b0ff93245ecbac2",
+   "signals": "7af3109ae3641323:d13418c831da2483",
+   "tires": "9ed444c77961afe6:c992d86cfd50b46a",
+   "glass": "2cf5028ed08edabf:21954d277ac8894e"
+  },
+  "svg": "a3891deed06770ca",
+  "f3": "8e81c570669da364",
+  "f3s": "d4f3cc2928d16d05",
+  "readme": "5960a8a025d9980c",
+  "bbox": [
+   -89,
+   -94.6132075471698,
+   89,
+   94.6132075471698
+  ]
+ },
+ "offroad": {
+  "mh": {
+   "base": "f5edafc467ca8d06:504001e0cf1ca730",
+   "chrome": "7004a23f61add536:fd91328ee7738349",
+   "grille": "5c628d068f6c69bb:b51e398cbd5693ba",
+   "letters": "fe37fb2bb40a6e0c:fb2e289520e6f738",
+   "lights": "0c114cb91cae8e0c:fab87325e5741744",
+   "signals": "912e83057988f1a0:dd4ba5b1370ffa30",
+   "tires": "9d1cf568d2e2aa77:d9d150c94e1a1800",
+   "glass": "e8fd55e27e8123ac:f884d318fdf216a0"
+  },
+  "svg": "010f7314cd657c45",
+  "f3": "869048fe52545469",
+  "f3s": "46ceab57d570fdaa",
+  "readme": "8f87fc3d7bc37596",
+  "bbox": [
+   -89,
+   -85.56565656565655,
+   89,
+   85.56565656565655
+  ]
+ },
+ "supercar": {
+  "mh": {
+   "base": "9e5800913f0de676:527c37f0eddd7bfb",
+   "chrome": "1c3c2afbf40871e2:b6bf81eeed4ad90c",
+   "grille": "d9380ccdad1bbe32:09e9d89191ec4e47",
+   "letters": "e1e9a9649ee7872b:646d84fff2dd8cdc",
+   "lights": "fb764ca44693b52a:4929ccd334140501",
+   "tires": "9b13bba2c9f70f15:8043157c439d00cb",
+   "glass": "e9deff4a6cd1a337:29d73cf221c329be"
+  },
+  "svg": "d1c6070cf28a24eb",
+  "f3": "42a9c40896ebf037",
+  "f3s": "4063b14bb82bcd19",
+  "readme": "07239ee3b9a8715d",
+  "bbox": [
+   -89,
+   -52.81188118811881,
+   89,
+   52.81188118811881
+  ]
+ },
+ "blank": {
+  "mh": {
+   "base": "340c95e6038aeb65:d24f89f2417f3244",
+   "accent": "2034e694dac768fd:d6d58d447ae26995",
+   "letters": "a1d7175845fba99e:4e412ebbac7070e3"
+  },
+  "svg": "3410c308a011d825",
+  "f3": "052404e7439f6d09",
+  "f3s": "ba86cf3db228ea24",
+  "readme": "cd9cabe4033dfedc",
+  "bbox": [
+   -89,
+   -38,
+   89,
+   38
+  ]
+ },
+ "tin": {
+  "mh": {
+   "base": "f9f9d50916404f1d:904075b903467547",
+   "accent": "698c7a870b9412f6:806e60e914cb3203",
+   "bold": "86618a4791b80b9a:43d252f25e6563e3",
+   "letters": "e8b8fe4c9b59df49:dd3a64ba64a597c2",
+   "chrome": "df3331e06bc84935:db906007ee3ff33e"
+  },
+  "svg": "26a55470c13ed559",
+  "f3": "b6597d2f18d3333d",
+  "f3s": "cbb43a79b0559a4b",
+  "readme": "5503d4939590b4cc",
+  "bbox": [
+   -89,
+   -36.5,
+   89,
+   36.5
+  ]
+ },
+ "neon": {
+  "mh": {
+   "base": "2a954c37e5a36032:67d29e0050c9bb1b",
+   "accent": "7bff7cff1b0b3517:e1a7748ab34408c7",
+   "panel": "0ed2a21af248f74d:de38dc8af16e1f8b",
+   "bold": "a426d30cb9ab1de2:02eff3ba48b2e8f8",
+   "letters": "0b32b46352f662a5:c86f8ddd3b0ef178",
+   "chrome": "9e00500476c5d106:23665b3c9a95b8ce"
+  },
+  "svg": "c244aa0743b370de",
+  "f3": "b7c573b3bcf7242f",
+  "f3s": "e2eed57d41571e09",
+  "readme": "8023b212786f5fdc",
+  "bbox": [
+   -89,
+   -38,
+   89,
+   38
+  ]
+ },
+ "wood": {
+  "mh": {
+   "base": "bb9c30cb0981b58a:e7778e767180b243",
+   "accent": "1968ebf1406560fc:6ec8edff248c31b5",
+   "panel": "68d730018f3c392e:f2ac0fc8fbb880cf",
+   "bold": "7fa26564ac9a06fa:3bb0babb4a2ef1e2",
+   "letters": "17a1511df431e339:cf06b1654b97e1e2",
+   "chrome": "af0728483595e034:170ff8d0848f5dc4"
+  },
+  "svg": "8bd41cc237b83131",
+  "f3": "0230b3e7c5daf2f8",
+  "f3s": "73c9e266f6d41532",
+  "readme": "6d416495427c2ece",
+  "bbox": [
+   -89,
+   -33,
+   89,
+   33
+  ]
+ },
+ "metal": {
+  "mh": {
+   "base": "b44b9a66212baf64:904075b903467547",
+   "accent": "1d7751e5fd98b54c:894fbc2c33ebc91a",
+   "bold": "3c1c3794c7854c56:d5542904c9bb3861",
+   "letters": "bb77ad6a12403c2c:11e0d5fdd1f1aa55",
+   "chrome": "1ffde82ed11a5815:dd1ccd002bed9548"
+  },
+  "svg": "210829e52f30bbab",
+  "f3": "a1aba2460f03bd61",
+  "f3s": "d5cde19d80ee5bd6",
+  "readme": "921b77299199cbfd",
+  "bbox": [
+   -89,
+   -29.5,
+   89,
+   29.5
+  ]
+ },
+ "signature": {
+  "mh": {
+   "base": "708ab71d8df73ac6:c1194de58efa65e1",
+   "accent": "c99ea20513eab3b0:ed2c394fbc7a13f0",
+   "letters": "336d5110eb655c47:231f719651ceaa07"
+  },
+  "svg": "59cb4d5b0ae3e357",
+  "f3": "8fbe4793962f732c",
+  "f3s": "481a7573527dab7a",
+  "readme": "8815f91037defba6",
+  "bbox": [
+   -89,
+   -28.5,
+   89,
+   28.5
+  ]
+ },
+ "monogram": {
+  "mh": {
+   "base": "bbb499afcbd2d8e9:2293f5ec10f15cb0",
+   "accent": "b68a0b36a08f36d0:753639e62f392799",
+   "letters": "b65c7528a1300acf:09f0327053c21d28",
+   "chrome": "2efda146bb041752:8d1e7a94d8513176"
+  },
+  "svg": "c7b79361ee3fd12f",
+  "f3": "301ab1ddf3a58c40",
+  "f3s": "b683012c17009c19",
+  "readme": "5b7f0f01aa9ad667",
+  "bbox": [
+   -89,
+   -33,
+   89,
+   33
+  ]
+ },
+ "sportline": {
+  "mh": {
+   "base": "446fc48948369365:4a9078c19b901f0d",
+   "accent": "5ec63646110f636f:ccd85662f2d15a39",
+   "letters": "90b0a56c1dc621e1:9deb203c2dd38669"
+  },
+  "svg": "ea01e4f411847578",
+  "f3": "b905913fd6e1ff58",
+  "f3s": "059757b47e1d685c",
+  "readme": "e14cdaf944483662",
+  "bbox": [
+   -89,
+   -28.5,
+   89,
+   28.5
+  ]
+ },
+ "crestframe": {
+  "mh": {
+   "base": "8c213a0bdd2e8904:a421efeaff54694b",
+   "panel": "a987c6cdb9e041d2:a1b2f99486e3652d",
+   "accent": "12405a4511a2ecb4:f8f5f536ac3e692a",
+   "bold": "c50c2b03d7accf1a:5e187af9433040c7",
+   "letters": "62828daae0546848:dd3a64ba64a597c2"
+  },
+  "svg": "99ef195c3556d64b",
+  "f3": "d99ab6ca0bf0face",
+  "f3s": "f735cbc60a36a8ed",
+  "readme": "e4f2568cbaeffb28",
+  "bbox": [
+   -89,
+   -41.15,
+   89,
+   65.35499999999999
+  ]
+ },
+ "garageframe": {
+  "mh": {
+   "base": "30d46b8873df2179:68c57555e1df181b",
+   "panel": "926232e1ac5a3e53:dbe4429175436a3c",
+   "accent": "5c6e52fe73b2023a:523de574860643d9",
+   "bold": "2b0d69a619a5ae3f:245b3d4ea5607dc0",
+   "letters": "9c2b6d2374c378e8:646d84fff2dd8cdc"
+  },
+  "svg": "cf191396a9808d4f",
+  "f3": "b90e374cc70cb88f",
+  "f3s": "1c26690161bbc7a5",
+  "readme": "945205407ac1f475",
+  "bbox": [
+   -95.8,
+   -41.15,
+   95.8,
+   63.56999999999999
+  ]
+ },
+ "archframe": {
+  "mh": {
+   "base": "a8a4b2bde42834f1:770cdb3257a6c9b5",
+   "panel": "8ab7ce87c586aac8:9c39991d871f9de2",
+   "accent": "d47ece84e26c5de7:f8e69f280a14cbad",
+   "bold": "6b7a39bc68d91993:7726787b276f0ae3",
+   "letters": "62828daae0546848:dd3a64ba64a597c2"
+  },
+  "svg": "ebae618b4edcd31c",
+  "f3": "fb169e66238c34ab",
+  "f3s": "ef9ef85064b1d0a6",
+  "readme": "e5a18cd522acd74f",
+  "bbox": [
+   -89,
+   -41.15,
+   89,
+   62.677499999999995
+  ]
+ },
+ "marqueeframe": {
+  "mh": {
+   "base": "595bcdd1107f5cc0:4ba9fdb1370185b3",
+   "panel": "8fef6bcd2b49e9e9:d9f4f561ac8a3ac7",
+   "accent": "d127154e3b54fecf:2c1fb68e445ead9e",
+   "bold": "3ae3676a61d9671a:53a30e6f7345b4dc",
+   "letters": "92bee3c25a35ed37:fb2e289520e6f738"
+  },
+  "svg": "31f8d4e002c54dac",
+  "f3": "437b3ce3b94ca412",
+  "f3s": "92d3cf78592711a5",
+  "readme": "06e51ac37d50c665",
+  "bbox": [
+   -89,
+   -41.15,
+   89,
+   73.38749999999999
+  ]
+ },
+ "scallopframe": {
+  "mh": {
+   "base": "841b394ef5ed588a:300c09934bbd7326",
+   "panel": "ea193c58bf8f9c65:296079f3b8060a54",
+   "accent": "17e973ccc6d8a9c1:a57ea7a035c21bf2",
+   "bold": "0e72aa48397b7425:e6d02583cf17dd7d",
+   "letters": "62828daae0546848:dd3a64ba64a597c2"
+  },
+  "svg": "e483fc88006511a6",
+  "f3": "ee93fcdf2896c971",
+  "f3s": "651baba6bd8a302f",
+  "readme": "d458f109d25b3f4e",
+  "bbox": [
+   -89,
+   -41.15,
+   89,
+   60.8925
+  ]
+ },
+ "dynamicframe": {
+  "mh": {
+   "base": "ebee1f1e7c0cf446:6727e862f1cc7c02",
+   "panel": "5fdcfbba9cb1da54:64c4ad3bd35eb565",
+   "accent": "73e1e3542fe36763:a6719059beec8ab8",
+   "bold": "ee048dfe0f982c42:3aa4fe5dec852957",
+   "letters": "9c2b6d2374c378e8:646d84fff2dd8cdc"
+  },
+  "svg": "fffbf44a5275559c",
+  "f3": "f73818509f323ee6",
+  "f3s": "18884729404460f3",
+  "readme": "654be7216797b87f",
+  "bbox": [
+   -89,
+   -41.15,
+   96.03999999999999,
+   65.61
+  ]
+ },
+ "art_hoops": {
+  "mh": {
+   "base": "2710abd4eaa4a5de:357d7522d1a3450b",
+   "panel": "29cc2599066bfcdc:a9f8e64648a16682",
+   "accent": "6f7ee29ca6b10d55:564f8476a9b956d6",
+   "bold": "35c36cbeb40b2df6:df340dc2729d4e75",
+   "letters": "4555c5af2d27a6ab:dd3a64ba64a597c2"
+  },
+  "svg": "8fcd39cd3dadb9b4",
+  "f3": "5b34b80e18933f3b",
+  "f3s": "fde27e871a785e43",
+  "readme": "18d15434b30610e9",
+  "bbox": [
+   -92,
+   -49.92079207920792,
+   92,
+   49.92079207920792
+  ]
+ },
+ "art_gridiron": {
+  "mh": {
+   "base": "cc06a0a3b1a3c6e2:8a8dfb886b16a2b0",
+   "panel": "d2acdc349917e3b6:848cec9e89cd19c4",
+   "accent": "6107a51517299e90:b0dafa2e3cf3ee61",
+   "bold": "4c0f0fa59c4578e7:b807934565f9baac",
+   "letters": "e355a9e4e15cceb9:dd3a64ba64a597c2"
+  },
+  "svg": "e5a1f0cf43341ed8",
+  "f3": "85d096e13ffa6c9f",
+  "f3s": "789223bba1f3c935",
+  "readme": "10805670fe6c0a9a",
+  "bbox": [
+   -92,
+   -69.7479674796748,
+   92,
+   69.7479674796748
+  ]
+ },
+ "art_diamond": {
+  "mh": {
+   "base": "746e7e71cfefac45:23ccfb2df64a4115",
+   "panel": "6c9c3fa015e611af:74f3f40842d02a15",
+   "accent": "9d96c6b0429333cb:f827a69daaa9a3fe",
+   "bold": "0389ad8f0ffb0751:d12cc9185e90a369",
+   "letters": "fe901a38e4d23ed6:dd3a64ba64a597c2"
+  },
+  "svg": "b999026de50569da",
+  "f3": "1f7ea575473c11cc",
+  "f3s": "5b8b4c28fda5ec71",
+  "readme": "da03d62d7a6195eb",
+  "bbox": [
+   -92,
+   -75.88888888888889,
+   92,
+   75.88888888888889
+  ]
+ },
+ "art_faceoff": {
+  "mh": {
+   "base": "dd483d236ad16ef5:b01e72c21bba8804",
+   "panel": "281f1f8f4b3b0093:848bb2c2187080e7",
+   "accent": "fc68faebd5794427:f2f8a2d007102f3d",
+   "bold": "5325f3d9aa13b484:8ff64e119dc19b7e",
+   "letters": "ca5c0ef602c91e18:646d84fff2dd8cdc"
+  },
+  "svg": "5d9f8b34642f83f6",
+  "f3": "cd1c1e6d54711791",
+  "f3s": "01f9de868221f5b2",
+  "readme": "91f4171d21247fed",
+  "bbox": [
+   -92,
+   -65.92045454545455,
+   92,
+   65.92045454545455
+  ]
+ },
+ "art_bigbass": {
+  "mh": {
+   "base": "438c98d57c169498:719dfae62c6dbe5f",
+   "panel": "7c822e9407b1d9d8:61a4cfc66cd1d81e",
+   "accent": "80e8930125741083:86b2c9aaac2208b6",
+   "bold": "10319544e15b7499:cb88fbdb7be9214f",
+   "letters": "b58a9d4e85edfb44:dd3a64ba64a597c2"
+  },
+  "svg": "64854f50225ab091",
+  "f3": "2af7de8f7398c650",
+  "f3s": "0ade650c1bd9259b",
+  "readme": "2c0344253fabd3c4",
+  "bbox": [
+   -92,
+   -69.37903225806451,
+   92,
+   69.37903225806451
+  ]
+ },
+ "art_buck": {
+  "mh": {
+   "base": "1a2df75f51881881:8cfb42920ed04a46",
+   "panel": "eafb86f55806497b:87bb91bf18ddf45d",
+   "accent": "4fe0443025007a7b:f3de48c7e700d9ae",
+   "bold": "a9530989780dc735:c61e642eecb0ce3a",
+   "letters": "5ba0c56f59d6dad8:fb2e289520e6f738"
+  },
+  "svg": "3e553b4e6c4c05a3",
+  "f3": "59f82e86b4a9bbbb",
+  "f3s": "a629cc2e402ebdf7",
+  "readme": "fbc39695afcae153",
+  "bbox": [
+   -92,
+   -74.4660441426146,
+   92,
+   74.4660441426146
+  ]
+ },
+ "art_basecamp": {
+  "mh": {
+   "base": "c777dd8759e25238:bb182399d6c2602d",
+   "panel": "81db1ba870fcd194:15dd5c2b270c119c",
+   "accent": "94243fc558ac7337:352b6ef89883be27",
+   "bold": "edccc3155466d197:0476bf965d33b30d",
+   "letters": "2e4982f6a13e7178:fb2e289520e6f738"
+  },
+  "svg": "29da80e231465bf2",
+  "f3": "20293b2de2273a56",
+  "f3s": "617f07c1fe6e294b",
+  "readme": "9b48538e60c361b3",
+  "bbox": [
+   -92,
+   -54.50796178343949,
+   92,
+   54.50796178343949
+  ]
+ },
+ "art_hotrod": {
+  "mh": {
+   "base": "ed399bfe3a5d2606:3cfe0c8b23e4f2b3",
+   "panel": "2cf67ac4d65eb3f2:0c3ae2ada0f788af",
+   "accent": "27f1b635c6297262:81f2e8ad0950ac82",
+   "bold": "0683a8c23955e7d1:2e16b8cf4fb7986e",
+   "letters": "907b0833f8ba309d:646d84fff2dd8cdc"
+  },
+  "svg": "e61680133bd0fae8",
+  "f3": "7d2180ab36f0c4f2",
+  "f3s": "e6298f30109079cf",
+  "readme": "85f17e0ae219cb38",
+  "bbox": [
+   -92,
+   -67.1268834258525,
+   92,
+   67.1268834258525
+  ]
+ },
+ "art_cinema": {
+  "mh": {
+   "base": "e0ea0a45b3fe5f5e:b37c61be4731c93e",
+   "panel": "f2bbfb865517b142:4221b7802a2bd941",
+   "accent": "6985eed0eb6cf2e7:81af2f8956ed0be9",
+   "bold": "177b295fa3cd2e08:dbdacd4747e67588",
+   "letters": "7a5583150f36c500:fb2e289520e6f738"
+  },
+  "svg": "2646321a49ac3778",
+  "f3": "abc490acc406c3c8",
+  "f3s": "c74c6ca81ce1dc4a",
+  "readme": "3c1a183d9d892b97",
+  "bbox": [
+   -92,
+   -66.37601296596435,
+   92,
+   66.37601296596435
+  ]
+ },
+ "art_rockstage": {
+  "mh": {
+   "base": "dabfb3a51a386a69:a27c56fb56bd82dd",
+   "panel": "0c01e2a8aba1f5dd:8edb74495924c474",
+   "accent": "0adf4d35d61266e0:0f7f10e6e7ab9522",
+   "bold": "449b3a3ed297bed6:19caef8683d2cbac",
+   "letters": "efa8671c47f248a7:646d84fff2dd8cdc"
+  },
+  "svg": "3966139383b23ce7",
+  "f3": "62627e6f3e623410",
+  "f3s": "78c7f68f747296ca",
+  "readme": "be93ddbcf7a77412",
+  "bbox": [
+   -92,
+   -69.06785137318255,
+   92,
+   69.06785137318255
+  ]
+ },
+ "art_vinyl": {
+  "mh": {
+   "base": "30b841645ae45d9e:22775b0fb93cfafd",
+   "panel": "4e9a43acc8bb107a:efe2189fbd5b6883",
+   "accent": "499072e39a837adc:7cfbf2d16d52a69a",
+   "bold": "c5726d52d5e3f366:9ff8e7f10dbc47a6",
+   "letters": "cf305a346e61e864:4e412ebbac7070e3"
+  },
+  "svg": "c11dcad05ac3b203",
+  "f3": "b840ef074d93b2b4",
+  "f3s": "ca483dd05be9b3c2",
+  "readme": "b24456c975d64918",
+  "bbox": [
+   -92,
+   -75.30617495711834,
+   92,
+   75.30617495711834
+  ]
+ },
+ "art_rocket": {
+  "mh": {
+   "base": "252e1ba0e69fb399:e91f31728a2dc378",
+   "panel": "5c21272886e64e9b:99af75d2eb703f92",
+   "accent": "79690c92c6509c44:c1160433e33ddd43",
+   "bold": "52c16457d44d224f:2b7a34d7f7868698",
+   "letters": "8d1afb234cd5c461:4e412ebbac7070e3"
+  },
+  "svg": "bc7141520fc9e97e",
+  "f3": "93e7ffc20d4dd34a",
+  "f3s": "a9426c3dd28fc33b",
+  "readme": "f29c503affcfa0ff",
+  "bbox": [
+   -92,
+   -65.83550488599349,
+   92,
+   65.83550488599349
+  ]
+ },
+ "art_dino": {
+  "mh": {
+   "base": "0e2eac777033c1ac:993730a73b84071c",
+   "panel": "972e144d7413ffb3:949fcf0ec7c32ec4",
+   "accent": "296edb8bc8ce8c61:8b28f75fb94f89fe",
+   "bold": "7202ed1557f3cc11:51e188e361278e1a",
+   "letters": "68559f631b3271d0:4e412ebbac7070e3"
+  },
+  "svg": "fcca112092ee44b9",
+  "f3": "e635f7179f8ee0ba",
+  "f3s": "4c69b18c20fee9e8",
+  "readme": "16772702a53b3c5b",
+  "bbox": [
+   -92,
+   -71.70588235294117,
+   92,
+   71.70588235294117
+  ]
+ },
+ "art_unicorn": {
+  "mh": {
+   "base": "4a2cf46420fd726f:39d6205d24ba59a1",
+   "panel": "f45acd33f1b7d222:3a8b33d48410f882",
+   "accent": "0e7da5438de24ffa:d529af5f208725fa",
+   "bold": "6c8ee416f19b3344:21fd2db8dbe2ace4",
+   "letters": "648d408a94d8f68e:4e412ebbac7070e3"
+  },
+  "svg": "a73942c656ae90a0",
+  "f3": "bd80f31d476848db",
+  "f3s": "6aeb2a9a9b8852d2",
+  "readme": "017aa7cde2c1a643",
+  "bbox": [
+   -92,
+   -72.12096774193547,
+   92,
+   72.12096774193547
+  ]
+ },
+ "art_u_hoopdreams": {
+  "mh": {
+   "base": "2b4160c8f7ec512f:23e59d8a2dff6116",
+   "panel": "c0e9846f2a0a4ad6:8679162708149572",
+   "accent": "06ab517d04094ac0:a59ce8899c00df87",
+   "bold": "81428037555da5a7:f929a998f02e7290",
+   "letters": "7cc49c8c01542327:dd3a64ba64a597c2"
+  },
+  "svg": "e90bd958f282dfb9",
+  "f3": "bd401e65f5dc6a36",
+  "f3s": "f08f4024f5e19877",
+  "readme": "f6cf7b40b90b6e26",
+  "bbox": [
+   -92,
+   -85.66288492706646,
+   92,
+   85.66288492706646
+  ]
+ },
+ "art_u_fastbreak": {
+  "mh": {
+   "base": "9916b60035f344b4:fcfa0d56cea7dbe4",
+   "panel": "4d157dfc0c7e7a87:fa8bef7de9c83077",
+   "accent": "a009632763fd6358:80c39de1bfba3869",
+   "bold": "b990be49a6c1fb10:2e8b16bcc42b455d",
+   "letters": "cfd07d28c30cef4b:646d84fff2dd8cdc"
+  },
+  "svg": "60073aac70d5b172",
+  "f3": "3b05743288d6bbbf",
+  "f3s": "2d93601a77fee18e",
+  "readme": "a2d6afb59d186b60",
+  "bbox": [
+   -92,
+   -94.11794019933555,
+   92,
+   94.11794019933555
+  ]
+ },
+ "art_u_goldengoal": {
+  "mh": {
+   "base": "267a4120f6d8ad10:54f01688604e9624",
+   "panel": "b6f47e372e974b14:e056a37c9f922367",
+   "accent": "ccfe643caece4cef:feb35240f940065f",
+   "bold": "d57878bac32b67e2:6514239df32b65c8",
+   "letters": "eed151cad0ea41cc:646d84fff2dd8cdc"
+  },
+  "svg": "ce795fce39536247",
+  "f3": "023de35b1680359b",
+  "f3s": "9e97f55170b28140",
+  "readme": "eddd7127c9bd638e",
+  "bbox": [
+   -92,
+   -74.8391167192429,
+   92,
+   74.8391167192429
+  ]
+ },
+ "art_u_pitchside": {
+  "mh": {
+   "base": "f5f3abb7439e7a76:0c1b367b89b74ba4",
+   "panel": "462b013686881c0d:26a1a7c0e41b3c0f",
+   "accent": "829cc53cbd4ced3f:07e144ecc42db93e",
+   "bold": "06fbc22f0e12eb05:2515f753d8b03737",
+   "letters": "e5156c5a65f225ae:646d84fff2dd8cdc"
+  },
+  "svg": "824c19cd3ade67f3",
+  "f3": "0c37e05d24241f14",
+  "f3s": "04c14454d569a597",
+  "readme": "4d4a6e79654d7a6a",
+  "bbox": [
+   -92,
+   -80.03006329113924,
+   92,
+   80.03006329113924
+  ]
+ },
+ "art_u_spike": {
+  "mh": {
+   "base": "23869b35a0251442:8f5ab0f7a92cff40",
+   "panel": "238ea51f9f2839b1:cb1878fb8c6bee89",
+   "accent": "f978322f0041a47a:ee1f3418cf0992e3",
+   "bold": "e6e7efc370528453:928af09934758d68",
+   "letters": "af2c1b9e93cdd64e:646d84fff2dd8cdc"
+  },
+  "svg": "782a70cefaf8d619",
+  "f3": "339408c72fe3bb83",
+  "f3s": "b2f109b0f46d98bb",
+  "readme": "7c4990bbd5fc3832",
+  "bbox": [
+   -92,
+   -84.42301458670988,
+   92,
+   84.42301458670988
+  ]
+ },
+ "art_u_netzone": {
+  "mh": {
+   "base": "fa9c5d73a688d76b:02862614228c018e",
+   "panel": "b8369ec176ed9ee5:3eca5524bbae8a4e",
+   "accent": "d009505e0eca0e06:cd978991cbf98cde",
+   "bold": "ce633e0bac729108:a69abe34cfb26110",
+   "letters": "0ce49d02c4c35616:646d84fff2dd8cdc"
+  },
+  "svg": "752f7fbdfcbf9e3a",
+  "f3": "60a02fdb65c18b16",
+  "f3s": "1d75dd7b0ab87c79",
+  "readme": "171a73777bc91904",
+  "bbox": [
+   -92,
+   -84.15277777777779,
+   92,
+   84.15277777777779
+  ]
+ },
+ "art_u_balancebeam": {
+  "mh": {
+   "base": "7f43fc9afbfbdff7:e53acf9de7613504",
+   "panel": "2877fca6f2b3b75c:3b319c4f7337aa59",
+   "accent": "371816995c5d7283:e4166325c0b408a2",
+   "bold": "25e1c0e9dce4b6f9:418eceed57bf8bac",
+   "letters": "b9022246423c641f:fb2e289520e6f738"
+  },
+  "svg": "1c3c9cec4bc21b98",
+  "f3": "23cc57ea84a57371",
+  "f3s": "f40a357fb1da4e1e",
+  "readme": "2af50e2bac3c78a9",
+  "bbox": [
+   -92,
+   -59.88738019169329,
+   92,
+   59.88738019169329
+  ]
+ },
+ "art_u_clubhouse": {
+  "mh": {
+   "base": "593b9ffd2d8f0845:e75ca382146ac146",
+   "panel": "a7719f425c59c861:89a257d419637795",
+   "accent": "12f91d2b10013972:790eed016776bc48",
+   "bold": "bb3f17c48f90a513:d3ed97ba2959ec59",
+   "letters": "12e20c6f38b0e561:fb2e289520e6f738"
+  },
+  "svg": "a7523b62d18c8255",
+  "f3": "890ce6ae9357c99b",
+  "f3s": "78ce847647ff9deb",
+  "readme": "056a67f11c54aad0",
+  "bbox": [
+   -92,
+   -67.06944444444446,
+   92,
+   67.06944444444446
+  ]
+ },
+ "art_u_cheers": {
+  "mh": {
+   "base": "b85703e39f53bab5:eab31e5e009fdc07",
+   "panel": "89103e9a39f5c1ef:e10522fc47832194",
+   "accent": "905148a0402fe820:87eefcfac6d91261",
+   "bold": "a0d86b305ddb5f9d:ba30bc0933d38011",
+   "letters": "42fbd011b69c7eb4:fb2e289520e6f738"
+  },
+  "svg": "2c941596a10e641d",
+  "f3": "3a81d9615aa86bbf",
+  "f3s": "4a9407b6ba6c5f10",
+  "readme": "a114e8a183771969",
+  "bbox": [
+   -92,
+   -85.65259740259741,
+   92,
+   85.65259740259741
+  ]
+ },
+ "art_u_speakeasy": {
+  "mh": {
+   "base": "3acc48ff85139bac:8912576603203160",
+   "panel": "88eeba66b1495533:b6e16b02aa368486",
+   "accent": "09430c684c6da611:69eee81fcebee070",
+   "bold": "bfbc4179036e4104:47e8461a51df6656",
+   "letters": "0d1a4c9f13bfd449:fb2e289520e6f738"
+  },
+  "svg": "22d71c8b046815cc",
+  "f3": "93ecc30be72dac87",
+  "f3s": "8b615e764468dec7",
+  "readme": "8618d50f62b0309a",
+  "bbox": [
+   -92,
+   -60.604838709677416,
+   92,
+   60.604838709677416
+  ]
+ },
+ "art_u_cocktailhour": {
+  "mh": {
+   "base": "f92cdd07769191d5:586c78910320239e",
+   "panel": "f9f46e0e83ec4bbc:e0ba80c6a172199b",
+   "accent": "a73db04359b5aedf:e8d7217fbbf318e3",
+   "bold": "3def771891ec9973:9c378256d18e5b14",
+   "letters": "b7cd8593e403f556:fb2e289520e6f738"
+  },
+  "svg": "51f2c2da46f91966",
+  "f3": "2442ca759dff80aa",
+  "f3s": "25492f544eec585e",
+  "readme": "6719ee88873e457b",
+  "bbox": [
+   -92,
+   -72.82491582491582,
+   92,
+   72.82491582491582
+  ]
+ },
+ "art_u_machineshop": {
+  "mh": {
+   "base": "057f6f507b428762:6169079f00fe2ceb",
+   "panel": "7254779b660dd6b5:0fb5afbd2ab6936a",
+   "accent": "9d1bb45e729db712:34c406be5d64f3e3",
+   "bold": "6acbfc69608913e1:b000c4423c583cc3",
+   "letters": "c156d87e158d1ee7:646d84fff2dd8cdc"
+  },
+  "svg": "f63a1c0a2dae8e7b",
+  "f3": "49a0837b5ec813a8",
+  "f3s": "fc0c4a53f3ace794",
+  "readme": "e089899cd0cdd77c",
+  "bbox": [
+   -92,
+   -62.9140625,
+   92,
+   62.9140625
+  ]
+ },
+ "art_u_pistonplate": {
+  "mh": {
+   "base": "d689f97b6f1f997a:810aef13fccae48e",
+   "panel": "4e7381c66e525761:9f413ddcadb93550",
+   "accent": "b737ca621656d6eb:b078e2cba6570fc3",
+   "bold": "656a5d51f089f2a0:5638a98a168816ce",
+   "letters": "c9b3f27390c374ec:646d84fff2dd8cdc"
+  },
+  "svg": "d05be1a2fad7e1e8",
+  "f3": "1ef83e4f1673b963",
+  "f3s": "031a3c783c8b579a",
+  "readme": "dfb2a205a037a67c",
+  "bbox": [
+   -92,
+   -65.96031746031746,
+   92,
+   65.96031746031746
+  ]
+ },
+ "art_u_gameon": {
+  "mh": {
+   "base": "c517e009b2474700:524d266204ee95c5",
+   "panel": "d9bffa11f5159803:02dcfdf582d76250",
+   "accent": "1ece081c6d24a696:141d4d004e0771bb",
+   "bold": "9831823296aa5e52:18f3579f789c8a7e",
+   "letters": "24a6437e862a3ba4:4e412ebbac7070e3"
+  },
+  "svg": "6e4880fbe2113453",
+  "f3": "1cae3aad7d214eba",
+  "f3s": "8643ffa0df578dbe",
+  "readme": "3dec173fd01a4aa7",
+  "bbox": [
+   -92,
+   -46.72531847133758,
+   92,
+   46.72531847133758
+  ]
+ },
+ "art_u_caduceus": {
+  "mh": {
+   "base": "bb81f84b2954111e:33400ff59bb46400",
+   "panel": "f14c99b44d6a47f8:8d140f4244d4d958",
+   "accent": "e52a89af239eccb9:b110ffcf265ce63c",
+   "bold": "f6da530e48b35c0e:c21b9f33afb919ed",
+   "letters": "10481975d64d2579:fb2e289520e6f738"
+  },
+  "svg": "68c5e364932dcb48",
+  "f3": "d44525f28acf454c",
+  "f3s": "b3a47792a68d6f89",
+  "readme": "257b47ebfda3e010",
+  "bbox": [
+   -92,
+   -61.00165016501651,
+   92,
+   61.00165016501651
+  ]
+ },
+ "art_u_nursestation": {
+  "mh": {
+   "base": "35ad224d16710f54:892ddf79dfaf1998",
+   "panel": "41f42d96d4d93df3:a6526360f2240206",
+   "accent": "66d1be79ca6d75a0:2fb74903104ce984",
+   "bold": "dc56964579d03dba:eaaf677d4b50865f",
+   "letters": "93e07feb86f08b23:4e412ebbac7070e3"
+  },
+  "svg": "e90efb4dd67ee7a9",
+  "f3": "aa26668ced1a32e2",
+  "f3s": "fabb74a65895b505",
+  "readme": "5cef449902182267",
+  "bbox": [
+   -92,
+   -49.4313408723748,
+   92,
+   49.4313408723748
+  ]
+ },
+ "art_u_eyecare": {
+  "mh": {
+   "base": "dfaa768ebf4eec19:16292f349db8623d",
+   "panel": "fe0b59369adc63ec:c90330351f2f9124",
+   "accent": "36c9d89f605c6cac:55df839d4bfca720",
+   "bold": "06baf2ad49103a45:dae666374cd34a18",
+   "letters": "409e6cbd966b2663:fb2e289520e6f738"
+  },
+  "svg": "01563c44367bcb61",
+  "f3": "6086924a28c9599b",
+  "f3s": "41f904a594398116",
+  "readme": "a39c631d266ccbd9",
+  "bbox": [
+   -92,
+   -54.20684039087948,
+   92,
+   54.20684039087948
+  ]
+ },
+ "art_u_classroom": {
+  "mh": {
+   "base": "feee8e524144c9b0:9d66547a073c0d5d",
+   "panel": "ec13556bfb5c11f9:8e490bb7a18414d4",
+   "accent": "cbe571b5ff00251b:a53068d5be102856",
+   "bold": "6015e61f417bf5f8:701d260c7859c686",
+   "letters": "fd78d417491829bd:fb2e289520e6f738"
+  },
+  "svg": "ea85ac4bbecfd585",
+  "f3": "6c459c8c6f0d7931",
+  "f3s": "707634183b891610",
+  "readme": "f0e3f75b30eca1d8",
+  "bbox": [
+   -92,
+   -57.806188925081436,
+   92,
+   57.806188925081436
+  ]
+ },
+ "art_u_palmshore": {
+  "mh": {
+   "base": "85343894967b6f21:a3025fe02ef8a4d2",
+   "panel": "a6175398e2d0deab:c56192daac54007b",
+   "accent": "fbeff8813c14aae9:49d6fd1b6047d5ed",
+   "bold": "287a871bd180f987:66635a5a784023a1",
+   "letters": "b46730657a162ce6:fb2e289520e6f738"
+  },
+  "svg": "1b34c70de8e92eea",
+  "f3": "3a9d8b971e17ca2b",
+  "f3s": "479aba219e144bb7",
+  "readme": "fefe551d8909ff7a",
+  "bbox": [
+   -92,
+   -58.16242038216561,
+   92,
+   58.16242038216561
+  ]
+ },
+ "art_u_seashore": {
+  "mh": {
+   "base": "11641bed6d521f70:4b40b07dfff0c89a",
+   "panel": "5b2303776dffc7d8:32cfdd1f784feb70",
+   "accent": "d2cb0da59edadc4c:a2614d2c83875848",
+   "bold": "96b1ccc0cb11bddd:ecab3ce41586d1b0",
+   "letters": "1e7a87b560d0eee7:fb2e289520e6f738"
+  },
+  "svg": "1e9a438730d26414",
+  "f3": "e3aa8f540861e2a0",
+  "f3s": "2090a43098fb7132",
+  "readme": "48cf61cecfb6c833",
+  "bbox": [
+   -92,
+   -59.083333333333336,
+   92,
+   59.083333333333336
+  ]
+ },
+ "art_u_holycity": {
+  "mh": {
+   "base": "b118356f7809102e:f5fd79b0aa0b7800",
+   "panel": "a04d6b2eb0981a98:be84d4e8b0c75be4",
+   "accent": "dcc74d21ed63750d:ee535cf514d7358e",
+   "bold": "84df874dc90f2f66:91cd0bc8062f469f",
+   "letters": "059b3611a821b79d:fb2e289520e6f738"
+  },
+  "svg": "2bd42015c92de712",
+  "f3": "c6115838ac10fd00",
+  "f3s": "c81f762f37b22fe6",
+  "readme": "acc17528883f61df",
+  "bbox": [
+   -92,
+   -72.96214511041009,
+   92,
+   72.96214511041009
+  ]
+ },
+ "art_u_rainbowrow": {
+  "mh": {
+   "base": "35667d1132a90964:1c2a8d33e5427297",
+   "panel": "143195fb71a5aa71:10be649547d19983",
+   "accent": "32482fc9f108cb1d:219bec1c1ac19f40",
+   "bold": "12476db2830d4752:0addad57817962a7",
+   "letters": "b08179772d3e68d1:fb2e289520e6f738"
+  },
+  "svg": "1449324b4d52ea94",
+  "f3": "8b58eb4ed5b3b3e4",
+  "f3s": "20980e59686cc955",
+  "readme": "8410753c67332e96",
+  "bbox": [
+   -92,
+   -56.83760683760684,
+   92,
+   56.83760683760684
+  ]
+ },
+ "art_k_ace": {
+  "mh": {
+   "base": "0ccb9dfd1dff256b:375de8a2e664e3db",
+   "panel": "0e9e769a7dd212af:54f4816a30848e88",
+   "accent": "5638f234c2bf0f89:824cf1278ad21fb0",
+   "bold": "903edac3697fe53b:21066bdeb1e9f737",
+   "letters": "9f90b3595f553e1b:646d84fff2dd8cdc"
+  },
+  "svg": "d8a604702ac39158",
+  "f3": "e06e09bbf645fa91",
+  "f3s": "1b1d9ef1bfcdab59",
+  "readme": "1d606b66b0a582c9",
+  "bbox": [
+   -92,
+   -66.97532894736842,
+   92,
+   66.97532894736842
+  ]
+ },
+ "art_k_strike": {
+  "mh": {
+   "base": "de26e76d302bd8e5:6bea2bb88f7e4539",
+   "panel": "d9acb415bf99f18f:f5ca441b5b643c80",
+   "accent": "fdbf3a7ea3e504f9:15a29d50bde9ba7d",
+   "bold": "eac8c71510374a5e:0c85c6baf35d8380",
+   "letters": "708fd64d55d32d91:dd3a64ba64a597c2"
+  },
+  "svg": "a3341577dc21ca34",
+  "f3": "a8a8ae38e8af7805",
+  "f3s": "d4a327f3f8a474f3",
+  "readme": "34668d860a076667",
+  "bbox": [
+   -92,
+   -73.04529616724739,
+   92,
+   73.04529616724739
+  ]
+ },
+ "art_k_dink": {
+  "mh": {
+   "base": "354a5ca7d82f729a:f53902182b6c84db",
+   "panel": "b63df818bccd7543:585df09d58728930",
+   "accent": "2f4c8c22cdf51187:69461c6bd8a269c4",
+   "bold": "839d2e11cf7bc4a3:3e3a45b4122e5932",
+   "letters": "970966d3b77746d3:4e412ebbac7070e3"
+  },
+  "svg": "3c9cd854185a6765",
+  "f3": "2f5d77cc8cc37b31",
+  "f3s": "71d38d0e33e70267",
+  "readme": "bef3e77fe358c22a",
+  "bbox": [
+   -92,
+   -79.36486486486487,
+   92,
+   79.36486486486487
+  ]
+ },
+ "art_k_finish": {
+  "mh": {
+   "base": "14e5d63a760e5201:7ad55f8241b54801",
+   "panel": "9315a8b66f7b46f7:26d36d3ed090e18f",
+   "accent": "8cd8f2c23c24628e:d07d65c1673ec199",
+   "bold": "dede2c7b520fed11:e349485ccad3dfa5",
+   "letters": "00721f98a63d6ff0:646d84fff2dd8cdc"
+  },
+  "svg": "02014331fecbd0a7",
+  "f3": "c46121facf06e39c",
+  "f3s": "e286134eb32b84a7",
+  "readme": "f122d97f5c5b4a07",
+  "bbox": [
+   -92,
+   -74.66843971631205,
+   92,
+   74.66843971631205
+  ]
+ },
+ "art_k_spoke": {
+  "mh": {
+   "base": "fab3df54f26592c6:3e779c21141204ea",
+   "panel": "b6c45d99f5128d19:04a7b0b70fc29a29",
+   "accent": "a00b8a499e011bc8:9bfee82ee2ac2bc2",
+   "bold": "e4f05962b4d13fa3:e0035b1e127285d4",
+   "letters": "e895084a1dda3f46:fb2e289520e6f738"
+  },
+  "svg": "82954552f89b3363",
+  "f3": "99f68975d54c03b4",
+  "f3s": "d69300bbb2c156f3",
+  "readme": "4b368b573ade144a",
+  "bbox": [
+   -92,
+   -69.39205526770294,
+   92,
+   69.39205526770294
+  ]
+ },
+ "art_k_ironworks": {
+  "mh": {
+   "base": "78c40374e50e9dd4:0909b203bc49070c",
+   "panel": "b05ddadd48c5b682:6ffb11e2357b56d3",
+   "accent": "9f6b3efd79cda058:1bdd3fa9f1b137e4",
+   "bold": "491eabd423b69816:7541970793cf9259",
+   "letters": "8ef0ff75205c6ddf:fb2e289520e6f738"
+  },
+  "svg": "c1682a2ed7c1b522",
+  "f3": "79048ad0919920ed",
+  "f3s": "b47faa05d2ff5a93",
+  "readme": "6142dfb4fe596858",
+  "bbox": [
+   -92,
+   -61.98251748251748,
+   92,
+   61.98251748251748
+  ]
+ },
+ "art_k_dojo": {
+  "mh": {
+   "base": "fad26e556ce1f7b3:9f00fca675b42ed4",
+   "panel": "eb778bbec25199e0:3ed8b007e413398e",
+   "accent": "12e71c50eb59b375:fc076dd360c6f319",
+   "bold": "3f1c56a4032b4dd6:bdba2be44d9c30e3",
+   "letters": "3f37f65c03e1c386:646d84fff2dd8cdc"
+  },
+  "svg": "377e954ede5cfb79",
+  "f3": "93168265f9be76c8",
+  "f3s": "1aa438023657b7bf",
+  "readme": "fb7be21788a1e7fb",
+  "bbox": [
+   -92,
+   -80.03939962476548,
+   92,
+   80.03939962476548
+  ]
+ },
+ "art_k_halfpipe": {
+  "mh": {
+   "base": "32aaad9eeb751c74:637da1dfec9fea12",
+   "panel": "e24f4795b5c92847:27d987ade6a6a35b",
+   "accent": "c756eaad92ec4573:30c30fa8f323d33a",
+   "bold": "8f0b9b0e66b160ad:19148be3c428253a",
+   "letters": "e45a51f6a6ad504f:646d84fff2dd8cdc"
+  },
+  "svg": "56b0a54c04c8f246",
+  "f3": "da83b206c57ff7be",
+  "f3s": "3121d9accb6c5744",
+  "readme": "75cf9c4a2663a477",
+  "bbox": [
+   -92,
+   -66.77868852459017,
+   92,
+   66.77868852459017
+  ]
+ },
+ "art_k_powder": {
+  "mh": {
+   "base": "1c4414b3f718471a:aaaa56bdfe5cfeeb",
+   "panel": "d63ca491f3c6b8f3:e0d87c5afed48fd3",
+   "accent": "d86a451ef77a1661:884d253183cdcc75",
+   "bold": "d6ecf43c3dc72dd8:98d5a71150d052fc",
+   "letters": "1659c10171cc4262:4e412ebbac7070e3"
+  },
+  "svg": "f75c75961edfc9ff",
+  "f3": "4e791ceb03188436",
+  "f3s": "430e8fe6575ec7c2",
+  "readme": "d905989212cd0af8",
+  "bbox": [
+   -92,
+   -66.8671096345515,
+   92,
+   66.8671096345515
+  ]
+ },
+ "art_k_channel": {
+  "mh": {
+   "base": "a0c0b89ddfbb435b:a5d34a61eeb6e2d5",
+   "panel": "608587619e5e1079:9e009c124e10df33",
+   "accent": "68ce30516d34b98d:ec2eda7712cc29f8",
+   "bold": "2b0a4d22b1be5a1d:edbdda46a1018f40",
+   "letters": "275b85b069cc6e5e:4e412ebbac7070e3"
+  },
+  "svg": "2c038bac70732ff2",
+  "f3": "2165e272f0254da3",
+  "f3s": "0fdca86c4836317a",
+  "readme": "7fddd4f2eac669ec",
+  "bbox": [
+   -92,
+   -82.38690476190477,
+   92,
+   82.38690476190477
+  ]
+ },
+ "art_k_starship": {
+  "mh": {
+   "base": "740025fc05e85e82:f32ece9da1341f62",
+   "panel": "6715a70335285a4b:e0b6035170df2ede",
+   "accent": "d8d58676dd866ddd:5c42a40e5bb12bc1",
+   "bold": "b760a4b7112c6333:bf3e48e9def617aa",
+   "letters": "e8ce65ef2690bc78:646d84fff2dd8cdc"
+  },
+  "svg": "1e8e36ad75ebef7a",
+  "f3": "5bae143f3eb07f9e",
+  "f3s": "387570b836cfd19d",
+  "readme": "dbfce8e6e2ad8b66",
+  "bbox": [
+   -92,
+   -57.750407830342574,
+   92,
+   57.750407830342574
+  ]
+ },
+ "art_k_laughtrack": {
+  "mh": {
+   "base": "dd4f6870d2b6d558:e75c3f6e90d1f2f0",
+   "panel": "4d1edfffaebf663e:bf78ffbcffdf7eda",
+   "accent": "11cb8a1c31ee21ad:b04a83018e412ec5",
+   "bold": "26a5557d47af8a59:769636d522bc33cf",
+   "letters": "9c304f90033bafaa:4e412ebbac7070e3"
+  },
+  "svg": "0ff95c2d7df844ae",
+  "f3": "b55b29339c1344d0",
+  "f3s": "f866bf145b43a425",
+  "readme": "2a1c57523ebcb096",
+  "bbox": [
+   -92,
+   -70.29136690647482,
+   92,
+   70.29136690647482
+  ]
+ },
+ "art_k_casefile": {
+  "mh": {
+   "base": "566569942786f3d9:8afc362893e6f8af",
+   "panel": "5c1791a3190c6663:60e0e102c88754af",
+   "accent": "1cc5c73fc4c1f1c0:db13ab48e7ed69e0",
+   "bold": "f621f9270860b691:aa0b32efb7fc0b91",
+   "letters": "21148bd42ac1f4f3:fb2e289520e6f738"
+  },
+  "svg": "a9955c14d541148f",
+  "f3": "cf0f641948a158b3",
+  "f3s": "61e1d80eea09d087",
+  "readme": "e76895e01f53058c",
+  "bbox": [
+   -92,
+   -69.3936170212766,
+   92,
+   69.3936170212766
+  ]
+ },
+ "art_k_toontime": {
+  "mh": {
+   "base": "4b05b80b85c0bd69:c36a7167644c409b",
+   "panel": "bc0b6e8f04a4c544:f2bcebef22e076a4",
+   "accent": "15ff619ee3a1268d:f17e97d6339c2be5",
+   "bold": "9c65caaa1e535802:38d8a38707f0edaa",
+   "letters": "cc0eb8a8e88184fe:4e412ebbac7070e3"
+  },
+  "svg": "7a16ffcab80ece79",
+  "f3": "9df30d78477e3635",
+  "f3s": "7165780e32a4153e",
+  "readme": "fa3969da20d6bb78",
+  "bbox": [
+   -92,
+   -69.81961471103328,
+   92,
+   69.81961471103328
+  ]
+ },
+ "art_k_spotlight": {
+  "mh": {
+   "base": "cf2a21d3b4405743:11d08c7574812110",
+   "panel": "70a9609e57cccdea:52597107b2261da6",
+   "accent": "e0b9060847e76836:9acc83f9abed178a",
+   "bold": "69b731e60fa78f66:9fcdd75293efbdd1",
+   "letters": "5785abe05e9c0213:646d84fff2dd8cdc"
+  },
+  "svg": "57f46becbb2aa7d5",
+  "f3": "2e04003c69821a87",
+  "f3s": "a84eead4f331769b",
+  "readme": "c0bfb1027e2125bc",
+  "bbox": [
+   -92,
+   -67.67291311754684,
+   92,
+   67.67291311754684
+  ]
+ },
+ "art_k_frontier": {
+  "mh": {
+   "base": "1b2949cdaa881e7f:7eabc11aeac5480f",
+   "panel": "dd7c17ceb090955e:0fc58f1f5e51a26e",
+   "accent": "192e62138f01c9fd:960a2b73d4eca960",
+   "bold": "e0b546252587c6ac:85a0d4bfa38bda1f",
+   "letters": "62ef29332cc14fbd:dd3a64ba64a597c2"
+  },
+  "svg": "5252a3f9b9e751a3",
+  "f3": "8c8f577e7d1b5e28",
+  "f3s": "a6ddb08d7075c329",
+  "readme": "934c11eb590f5c6c",
+  "bbox": [
+   -92,
+   -65.739837398374,
+   92,
+   65.739837398374
+  ]
+ },
+ "art_k_chefstable": {
+  "mh": {
+   "base": "9acad4e1556d5658:ab36ba32241befa2",
+   "panel": "e3a5db249bbd74c2:e7a144133d839707",
+   "accent": "45363925db811374:9c92763d32301a14",
+   "bold": "8e818eff891fce73:580947add6112f36",
+   "letters": "5bd592d5ad4849e7:4e412ebbac7070e3"
+  },
+  "svg": "5dcd329658a40134",
+  "f3": "193819eb9cc2b33a",
+  "f3s": "f5ca1ba664ffa7fc",
+  "readme": "dc6f4956b63a5e72",
+  "bbox": [
+   -92,
+   -76.39393939393939,
+   92,
+   76.39393939393939
+  ]
+ },
+ "art_k_bigwheel": {
+  "mh": {
+   "base": "d6124e6f356e45ed:2782003eea428d0a",
+   "panel": "3644da2cd54bde0f:c86d0bb07e451324",
+   "accent": "6993fc84d04e317e:6b8132ec21ef0467",
+   "bold": "6d3867a353ae2781:4bd503b11d7ad469",
+   "letters": "147ad78d4e9cb33c:646d84fff2dd8cdc"
+  },
+  "svg": "141c6ee28a46acf6",
+  "f3": "ccd79c8276e77929",
+  "f3s": "ef9f3819428254c1",
+  "readme": "ddb17dfe5392909b",
+  "bbox": [
+   -92,
+   -61.228896103896105,
+   92,
+   61.228896103896105
+  ]
+ },
+ "art_k_midnight": {
+  "mh": {
+   "base": "7a2ddd9b4261c69a:dc0fc6b806a7d326",
+   "panel": "538e188d3b03e4f0:3ea15508ad1495dd",
+   "accent": "53e53f3eedd15e3b:12742e71d7d6587a",
+   "bold": "f4366635fc74e082:c2eb357d5f9f6c7e",
+   "letters": "c9c28501032e09f9:fb2e289520e6f738"
+  },
+  "svg": "0638d93e55065cf8",
+  "f3": "5bed3890e3720d9c",
+  "f3s": "5f690ce0f22d96bc",
+  "readme": "71d3d7902e044d28",
+  "bbox": [
+   -92,
+   -76.75190839694656,
+   92,
+   76.75190839694656
+  ]
+ },
+ "art_k_herocrest": {
+  "mh": {
+   "base": "ec412d1b38882c18:8174b3c1c71f04f3",
+   "panel": "2a2568114bbf7a1f:d29bdcf652d6e251",
+   "accent": "9916e42d868d98d6:929a69186abc1796",
+   "bold": "32d27bc15223ebbb:80d0fad026cf88b8",
+   "letters": "f928e8d580ad9588:646d84fff2dd8cdc"
+  },
+  "svg": "76a60775989d8a46",
+  "f3": "21c47ec2cc5947b5",
+  "f3s": "ec94cf302bcf6760",
+  "readme": "4a1d5474de69f28a",
+  "bbox": [
+   -92,
+   -66.63492063492063,
+   92,
+   66.63492063492063
+  ]
+ },
+ "art_k_dragonkeep": {
+  "mh": {
+   "base": "d0a5ae25fc2ee176:35be25003898c1d0",
+   "panel": "a24daa81364181d3:0a3ba82ebf3e18b5",
+   "accent": "ef63f355fc0a846e:9df3f893fe04518c",
+   "bold": "addbf8b9fc027d54:54d119844431069c",
+   "letters": "9a2734c0e519a853:dd3a64ba64a597c2"
+  },
+  "svg": "e111480c088c8728",
+  "f3": "24c5e2c38278fe48",
+  "f3s": "8d39c61b02ccc706",
+  "readme": "f62ff3caf50eb5f3",
+  "bbox": [
+   -92,
+   -70.34767641996558,
+   92,
+   70.34767641996558
+  ]
+ },
+ "art_k_sakura": {
+  "mh": {
+   "base": "14ebcee4091bee01:cfa4da30a71bb569",
+   "panel": "4180da2e4f8fd7f7:22540f5f63d3eb49",
+   "accent": "9b1b88a492da5433:6c4c0f49d2af1972",
+   "bold": "1f1bb3ae339f4b2d:79708ddf0c4e30fc",
+   "letters": "9ae1336786907ec7:4e412ebbac7070e3"
+  },
+  "svg": "7642ae6023c8fdfe",
+  "f3": "acfa63a771218e9c",
+  "f3s": "bf7c234dbedd0815",
+  "readme": "12a2985450ebafd7",
+  "bbox": [
+   -92,
+   -59.496,
+   92,
+   59.496
+  ]
+ },
+ "art_k_haulin": {
+  "mh": {
+   "base": "194eb8898628fbe7:391b80f5d580ceb5",
+   "panel": "21cc828598b21509:a7951a8e9f9cdfcf",
+   "accent": "e09e00fe14236e58:a4ff9ecf806301fe",
+   "bold": "a3d053ef87323ba5:f1c7cdf5a5ac6a8a",
+   "letters": "4bb9a728e1e19e33:fb2e289520e6f738"
+  },
+  "svg": "8a07aaffa16d4282",
+  "f3": "84d7184f63e4d963",
+  "f3s": "d58f1fb9ade2dc96",
+  "readme": "128ad25b53205d23",
+  "bbox": [
+   -92,
+   -69.10977701543739,
+   92,
+   69.10977701543739
+  ]
+ },
+ "art_k_roadtrip": {
+  "mh": {
+   "base": "e3426abdf8aba95e:5df5298d6b9b9d24",
+   "panel": "54f1ef4cbe3e99f8:273187c3307e36fb",
+   "accent": "a33b36a5e7401f15:9443edca60d04ec0",
+   "bold": "9f44693ff08e3ef8:2548635e3b392b64",
+   "letters": "829dffa0f1d58db1:4e412ebbac7070e3"
+  },
+  "svg": "731616b8c33038e3",
+  "f3": "30708ec4cb0cf8f3",
+  "f3s": "c944096c6eb69e34",
+  "readme": "cff81c5ce1ce3a12",
+  "bbox": [
+   -92,
+   -72.46491228070175,
+   92,
+   72.46491228070175
+  ]
+ },
+ "art_k_chromedream": {
+  "mh": {
+   "base": "9961713839dbdd32:ebd1169906631daf",
+   "panel": "45a0256670baab60:595bff31bb0be0a2",
+   "accent": "64f3628562486e35:2cf0087f880641b7",
+   "bold": "c4f705dfa2c97c2a:e0d97edccff7b3d4",
+   "letters": "f83998a6a173275a:dd3a64ba64a597c2"
+  },
+  "svg": "a67eb15166ba024d",
+  "f3": "85dbd8850e874562",
+  "f3s": "21b28cff5d18b79e",
+  "readme": "2e0cc2849d7e5a21",
+  "bbox": [
+   -92,
+   -58.443719412724306,
+   92,
+   58.443719412724306
+  ]
+ },
+ "art_k_v8": {
+  "mh": {
+   "base": "2a5d34d4c154cda2:c4b59b12472af36a",
+   "panel": "d426e9f2fe240922:dcb4c2e06c7e0fef",
+   "accent": "cefc1ef91e07fce0:9f8530827540a4d2",
+   "bold": "e1af0079e907fef4:290d3a8ae9e8e17c",
+   "letters": "dd4b948313b385ec:646d84fff2dd8cdc"
+  },
+  "svg": "f029a16b1dd9b05b",
+  "f3": "f8b06d9cad7454b8",
+  "f3s": "99d1e5003b1be7bc",
+  "readme": "e689d7241ddf2dc7",
+  "bbox": [
+   -92,
+   -67.04078303425774,
+   92,
+   67.04078303425774
+  ]
+ },
+ "art_k_throttle": {
+  "mh": {
+   "base": "4a2f53df0a2c410d:d3e84aee883cdfdf",
+   "panel": "c88a192bb4f3147e:5aa4519f1c170610",
+   "accent": "4822db3c67d9af81:4d956008344b5a22",
+   "bold": "1392a5b4468b3c28:4a192c6bd4bb41f3",
+   "letters": "1602abdbe484dc07:fb2e289520e6f738"
+  },
+  "svg": "8f03edc5ac6fb9e0",
+  "f3": "7da6e7021aee7cb9",
+  "f3s": "af9e1a7d31cfd4ec",
+  "readme": "9554f917acbc920e",
+  "bbox": [
+   -92,
+   -64.532154340836,
+   92,
+   64.532154340836
+  ]
+ },
+ "art_k_trailboss": {
+  "mh": {
+   "base": "748c39200df785ed:2d426a34f8d8819d",
+   "panel": "b68928eb8f0b8820:ea5c24f343df4770",
+   "accent": "38d2cb14ab3f085f:7f678ee930e1cb61",
+   "bold": "9cc1cb0bf269c2bd:d0d104fd99b73a30",
+   "letters": "5db022e966fcb340:fb2e289520e6f738"
+  },
+  "svg": "293a5fb410c847d0",
+  "f3": "e015db484c93d475",
+  "f3s": "ec837729e35fc8e9",
+  "readme": "6b38b1bdf3c93b7e",
+  "bbox": [
+   -92,
+   -63.89516129032258,
+   92,
+   63.89516129032258
+  ]
+ },
+ "art_k_harvest": {
+  "mh": {
+   "base": "26dc278d199f207d:3b9a7d2d0b73e41d",
+   "panel": "e79fd4328d39041d:ea4ae61a0dd0a8e6",
+   "accent": "1a795fe0e66a4813:683e11bc847afb16",
+   "bold": "58e652fefaafdda9:bd1d3a4360f85975",
+   "letters": "ed1bca634e71b4f5:dd3a64ba64a597c2"
+  },
+  "svg": "6411dbb68cb5b6a4",
+  "f3": "d3eb9662acbb4b79",
+  "f3s": "c1045464904b467a",
+  "readme": "e0c5534e108eab18",
+  "bbox": [
+   -92,
+   -64.08745874587459,
+   92,
+   64.08745874587459
+  ]
+ },
+ "art_k_honkytonk": {
+  "mh": {
+   "base": "0889303b56f984b5:59d7f7d35ac95a07",
+   "panel": "6398d6f53a3151f5:be03b7ea60d3c058",
+   "accent": "7eee4b22b94caf9c:ea8f8738f95faf75",
+   "bold": "e54e237ee6941c89:386b55ab6fc64f74",
+   "letters": "3c5d5c2398b414b9:dd3a64ba64a597c2"
+  },
+  "svg": "5b3c52acc1dbe9c5",
+  "f3": "0cd5eb21b78ed3e8",
+  "f3s": "4c44474f19133c7f",
+  "readme": "6098a07bc41455b5",
+  "bbox": [
+   -92,
+   -71.89864864864865,
+   92,
+   71.89864864864865
+  ]
+ },
+ "art_k_boombox": {
+  "mh": {
+   "base": "dfc20827d9027b5b:4914dd27bbf2d693",
+   "panel": "3f10d58f8daf2bb7:0b13f1b8a70853fa",
+   "accent": "6c8beb10a4b90df6:c0cf25e9f59cc9b7",
+   "bold": "d6739dc2324ed034:1a4eb3b607b86076",
+   "letters": "0874dc6bf33779c9:646d84fff2dd8cdc"
+  },
+  "svg": "7a7768081e8042e2",
+  "f3": "e59df8e0f66eaec8",
+  "f3s": "9ca4448dca329f4f",
+  "readme": "b9e38ebe62a54b3d",
+  "bbox": [
+   -92,
+   -68.14795918367346,
+   92,
+   68.14795918367346
+  ]
+ },
+ "art_k_bluenote": {
+  "mh": {
+   "base": "c592f11112fa303a:5706e0e7fbfd6368",
+   "panel": "4c6165f5c8736954:c4aa5c9f85333f12",
+   "accent": "9bebde215341423f:f34b4a06d625ce17",
+   "bold": "7ae62bfab0aaa222:277c99949a7e4cf8",
+   "letters": "9957ad90fcdb70a9:dd3a64ba64a597c2"
+  },
+  "svg": "ea3b6615f4b0b509",
+  "f3": "eb4b7d35460ebdef",
+  "f3s": "371cebddee9b6cba",
+  "readme": "ded7faea3a8e0637",
+  "bbox": [
+   -92,
+   -66.17898193760263,
+   92,
+   66.17898193760263
+  ]
+ },
+ "art_k_delta": {
+  "mh": {
+   "base": "3f158ceca59f2aac:5792e15e2cdf83db",
+   "panel": "c847aaaa7f018ef0:a55a0d203a802fc6",
+   "accent": "d4124ad9bb2c1e16:fd825c80f70b93f6",
+   "bold": "b021d7e17b4034e4:dedab537fa079893",
+   "letters": "b70c3ec743979d1f:fb2e289520e6f738"
+  },
+  "svg": "1c5de75685fed0e6",
+  "f3": "febc173f9457d0d7",
+  "f3s": "cb3c8ec977c2bf5f",
+  "readme": "0058e039cbd9ec87",
+  "bbox": [
+   -92,
+   -76.29347826086956,
+   92,
+   76.29347826086956
+  ]
+ },
+ "art_k_concerto": {
+  "mh": {
+   "base": "a68e6e18dd42ddf0:3454abce9f943fba",
+   "panel": "b88967c473ab7bcb:d71c444814c66833",
+   "accent": "321f34184d188a2b:d11e3e468f277087",
+   "bold": "7c0b800fb880d81c:314012ddab90bd2a",
+   "letters": "77427b8c086170c1:dd3a64ba64a597c2"
+  },
+  "svg": "59872abdd885e6d9",
+  "f3": "d2fa0ea989f27df4",
+  "f3s": "2642d54d4e0098ae",
+  "readme": "13ad6d8258f8255b",
+  "bbox": [
+   -92,
+   -73.61347517730496,
+   92,
+   73.61347517730496
+  ]
+ },
+ "art_k_ironriff": {
+  "mh": {
+   "base": "90a1faac25739e0c:38355833c85f5530",
+   "panel": "ea5a07f905bebbe0:2612fb64d4eb911d",
+   "accent": "beb7994a3b659710:d19f48b42d1893e8",
+   "bold": "6fe0037b989ee788:1dacaf52ade9123c",
+   "letters": "dd6862efa452bd87:fb2e289520e6f738"
+  },
+  "svg": "ea4a1de6de4499be",
+  "f3": "4856659332341b6c",
+  "f3s": "ea08c599ead0a2f2",
+  "readme": "263a2ff0b1636886",
+  "bbox": [
+   -92,
+   -66.20880913539966,
+   92,
+   66.20880913539966
+  ]
+ },
+ "art_k_popstar": {
+  "mh": {
+   "base": "5a70d05b1b338a2d:58d5e456feb93ee8",
+   "panel": "3f48701339e37b19:8a1620d5dfc6c590",
+   "accent": "0e35187e43552b1d:54f28a7cf41d9d7e",
+   "bold": "198d759fb74ee7a0:3aac5e6a7266d9ef",
+   "letters": "c7ec886dbaaa17ca:4e412ebbac7070e3"
+  },
+  "svg": "ab21b76711985d15",
+  "f3": "8316885ecf7c910d",
+  "f3s": "e42ab40caf4bdeb1",
+  "readme": "e2e49681e3ad53cd",
+  "bbox": [
+   -92,
+   -72.70921985815603,
+   92,
+   72.70921985815603
+  ]
+ },
+ "art_k_slowjam": {
+  "mh": {
+   "base": "df38bd075948116a:4c5acfeb25ac9dc3",
+   "panel": "7924a3c7aec3db15:95faaffaabe281a0",
+   "accent": "18863ea61b7658c2:2e2e958c9b143c84",
+   "bold": "8bb418199472262d:2c8ed8db0d25f6a7",
+   "letters": "7696a3ff668fec4e:dd3a64ba64a597c2"
+  },
+  "svg": "9d266608bb743dc9",
+  "f3": "150c5823ffbfc9cd",
+  "f3s": "798d083f3bd4b578",
+  "readme": "11a1df41f97eef89",
+  "bbox": [
+   -92,
+   -67.0257731958763,
+   92,
+   67.0257731958763
+  ]
+ },
+ "art_k_irie": {
+  "mh": {
+   "base": "5b50de3c63d511c2:24e4fe36b8a649fe",
+   "panel": "6a29f1cc141badda:a350d1d873da2d0e",
+   "accent": "ee7ddffff515402f:d707e46d5838a25f",
+   "bold": "301254f604a51fa7:5dab7e1c430c0cc0",
+   "letters": "13c1537a2cb7a496:4e412ebbac7070e3"
+  },
+  "svg": "57638a3536bb8ea7",
+  "f3": "88e2686b63a7f181",
+  "f3s": "4eef41f2ff479f12",
+  "readme": "5b30052bb2aab87b",
+  "bbox": [
+   -92,
+   -65.62068965517241,
+   92,
+   65.62068965517241
+  ]
+ },
+ "art_k_fiesta": {
+  "mh": {
+   "base": "fb68fe33e15b53ec:16a2e09899a77fb8",
+   "panel": "3c060e65b2cc31a1:125dbab77db19035",
+   "accent": "d123e220fb92e24a:3febcc59b817ed07",
+   "bold": "874186cb27efd222:74cddf86061f4f98",
+   "letters": "0c83fee2c0855083:dd3a64ba64a597c2"
+  },
+  "svg": "05112d173ab95ef3",
+  "f3": "5c9e4273cee58773",
+  "f3s": "d73365d4369e0878",
+  "readme": "2ae2cf2c29caacaa",
+  "bbox": [
+   -92,
+   -70.60445205479452,
+   92,
+   70.60445205479452
+  ]
+ },
+ "art_k_summit": {
+  "mh": {
+   "base": "20d5c1c91c6f1947:76daadacc50bfec4",
+   "panel": "c60ca0a4ea9a6eae:a1ab13fe35a1014a",
+   "accent": "6fd3c91508544647:49680a78c0e8ac9a",
+   "bold": "169688497359b4cf:699f5aabc381c37a",
+   "letters": "3c59c808f4d74de8:fb2e289520e6f738"
+  },
+  "svg": "e47bad234409e86c",
+  "f3": "4991f3f792890983",
+  "f3s": "203d0b7357e0b4bc",
+  "readme": "fb5a37bd0af938bb",
+  "bbox": [
+   -92,
+   -56.68599033816425,
+   92,
+   56.68599033816425
+  ]
+ },
+ "art_k_lakelife": {
+  "mh": {
+   "base": "aa40fc52089a7813:f4875ea0a8a45f1f",
+   "panel": "8c2a5be79cef1e4d:f4679ef7cf39916e",
+   "accent": "a1932be380bf5822:b81001d70f25831c",
+   "bold": "2069a79efe156bbf:d7bcf42baf362529",
+   "letters": "289cb9fc2d452cf7:dd3a64ba64a597c2"
+  },
+  "svg": "8befdb73bd56271c",
+  "f3": "8cf0b1e36a050277",
+  "f3s": "1bd853bcde23034d",
+  "readme": "341922a117d38232",
+  "bbox": [
+   -92,
+   -74.54054054054053,
+   92,
+   74.54054054054053
+  ]
+ },
+ "art_k_songbird": {
+  "mh": {
+   "base": "09a25c7c6796ab4c:cbd84462ec4b0d22",
+   "panel": "b712de3fab1946f8:efbce2fac39c4f6d",
+   "accent": "00e0a10e684c2801:c5f9b5ec1aa0b3d9",
+   "bold": "b3ee7fb1b9f7a4b7:b147b7facb08e808",
+   "letters": "5f5a85538141aa69:4e412ebbac7070e3"
+  },
+  "svg": "c394dafbdd8c135b",
+  "f3": "ad0c1d1852965351",
+  "f3s": "eb151176818f061a",
+  "readme": "72e92566a87795c3",
+  "bbox": [
+   -92,
+   -63.25404530744337,
+   92,
+   63.25404530744337
+  ]
+ },
+ "art_k_horseshoe": {
+  "mh": {
+   "base": "bfab792209ba0592:bd23475c498f167c",
+   "panel": "5be713bad1d8fa5a:e112c34280b2c357",
+   "accent": "35caeacc73c10b44:f1f36ef52483c5a1",
+   "bold": "fa5df5d0341d86dd:ba0d92fa66465c8b",
+   "letters": "0df9b03cab6e564c:dd3a64ba64a597c2"
+  },
+  "svg": "0107df7e8f7246ce",
+  "f3": "ae9eae391598c807",
+  "f3s": "9fdef927b63b51c2",
+  "readme": "d8f8fc8f68a001e0",
+  "bbox": [
+   -92,
+   -68.84294871794872,
+   92,
+   68.84294871794872
+  ]
+ },
+ "art_k_kitchen": {
+  "mh": {
+   "base": "52e9c428d361c71a:32d213c4cddafd9c",
+   "panel": "339d7b45ce504fa1:7f5d33012206613b",
+   "accent": "243a5e7352bb13dd:4ee3f390c3ba1738",
+   "bold": "bb42c5b322561301:4dca1579812ef69e",
+   "letters": "6e0c3d22e1210136:4e412ebbac7070e3"
+  },
+  "svg": "d8078a08cdea5824",
+  "f3": "9673f5bc92e98842",
+  "f3s": "5ba199f8fd347a7a",
+  "readme": "6a1e5a6c0bbba8e8",
+  "bbox": [
+   -92,
+   -79.06165703275529,
+   92,
+   79.06165703275529
+  ]
+ },
+ "art_k_pitmaster": {
+  "mh": {
+   "base": "e259f71af20650dc:244d79cb352b7571",
+   "panel": "b757d796d8f2533c:03f8c98b6925734b",
+   "accent": "94530294f6a3185c:7d12d4df5c50c600",
+   "bold": "c80a091aaa5881fd:d354c2de917a6acb",
+   "letters": "f817b931a56e8712:fb2e289520e6f738"
+  },
+  "svg": "38bffca8a820c0e9",
+  "f3": "89972279a4142e57",
+  "f3s": "f84a9cfc73758735",
+  "readme": "09a979168c58eba8",
+  "bbox": [
+   -92,
+   -76.28186714542191,
+   92,
+   76.28186714542191
+  ]
+ },
+ "art_k_bookworm": {
+  "mh": {
+   "base": "70d18862a200bd41:cb4df85f42e308bc",
+   "panel": "5105361b3e8b921f:49a6b3508749c21a",
+   "accent": "355e3e21a854c150:ba5efb06da741101",
+   "bold": "2802d71b47cb4c0e:e23717018093d8c7",
+   "letters": "be4f3e56bd93fafe:dd3a64ba64a597c2"
+  },
+  "svg": "eb8d008b31ce4694",
+  "f3": "be6a73da929f2d92",
+  "f3s": "9e4e242326acbf5c",
+  "readme": "dfd7ed870c44a6b3",
+  "bbox": [
+   -92,
+   -71.44017094017094,
+   92,
+   71.44017094017094
+  ]
+ },
+ "art_k_pawprint": {
+  "mh": {
+   "base": "8e781674bc51d556:cdbced5837598411",
+   "panel": "60d341be86740d29:97c3846520e51a98",
+   "accent": "c61aec8a9df19d49:094f6e50710a0153",
+   "bold": "bda64d472809bd1a:0c6aea1205c3edcc",
+   "letters": "23378c2be5a51fa7:4e412ebbac7070e3"
+  },
+  "svg": "556cc0f82e95042e",
+  "f3": "83c4f7ee3183d795",
+  "f3s": "0884accd1e921642",
+  "readme": "13b4308edd76c8d3",
+  "bbox": [
+   -92,
+   -77.9375,
+   92,
+   77.9375
+  ]
+ },
+ "art_k_gamenight": {
+  "mh": {
+   "base": "bec66afb9854d45b:8e22b899a861f19d",
+   "panel": "5fe91954b884b68f:97f9f234bbf9c27c",
+   "accent": "0ea7a5ff3629870b:9728de1d792d2690",
+   "bold": "194adbc07edddbbd:59acecdd30244611",
+   "letters": "a81671023b09a6fa:646d84fff2dd8cdc"
+  },
+  "svg": "8e8ca1b1d41e9640",
+  "f3": "0bfad75eaecc46bf",
+  "f3s": "0e890463c06f1f90",
+  "readme": "ccbf93027cfa8089",
+  "bbox": [
+   -92,
+   -63.10837438423645,
+   92,
+   63.10837438423645
+  ]
+ },
+ "art_k_shutter": {
+  "mh": {
+   "base": "15d92f7de7cf09e0:1dac7e92a33b9539",
+   "panel": "c562e4ffea77ff64:4979d9b95c1a84fd",
+   "accent": "fd104e5714cf8cd9:2bff491acc52eab5",
+   "bold": "721c991ae3178d34:93f54be8ed84bdc4",
+   "letters": "51b16de91477adf2:fb2e289520e6f738"
+  },
+  "svg": "3c5ac2cd33719a28",
+  "f3": "f1c3900036ee12d8",
+  "f3s": "dda73e69531cd4ba",
+  "readme": "15c0ad07a323b41d",
+  "bbox": [
+   -92,
+   -66.80456026058633,
+   92,
+   66.80456026058633
+  ]
+ },
+ "art_k_craftroom": {
+  "mh": {
+   "base": "9c944ada63dbd6ee:293b8c43692cba2b",
+   "panel": "049bfd2144b29030:c6078104e0639b8c",
+   "accent": "6103026ec6957695:2b7d4538ffaaa3bb",
+   "bold": "f169f39ed2810d8a:1532578367ebf4f5",
+   "letters": "930c7efd77e707b4:4e412ebbac7070e3"
+  },
+  "svg": "c30e31e0120623c3",
+  "f3": "6a904807fc82aeb0",
+  "f3s": "0dc43c6ee4409678",
+  "readme": "e20ba98370dc4fa9",
+  "bbox": [
+   -92,
+   -68.88973063973063,
+   92,
+   68.88973063973063
+  ]
+ },
+ "art_n_basketball": {
+  "mh": {
+   "base": "4d466aaf3f41b40b:233422e13cde3f31",
+   "panel": "97a20bd36195d494:df7c11f2108a957d",
+   "accent": "9c50eab9b1929702:953ddc16f1ba4486",
+   "bold": "9ef7b63f7d1c90c0:0aa235794f4026ce",
+   "letters": "b0e8a2849e9c8766:dd3a64ba64a597c2"
+  },
+  "svg": "ce45015c1f302363",
+  "f3": "4e0d81c5f57fa2f8",
+  "f3s": "072ed187cdfece29",
+  "readme": "bf2fbb9329fe5ff3",
+  "bbox": [
+   -92,
+   -69.5546875,
+   92,
+   69.5546875
+  ]
+ },
+ "art_n_football": {
+  "mh": {
+   "base": "bc90e1ff0d3cc834:fd46f01585e3663f",
+   "panel": "915128cee1a31fa0:be50cc1d562369e9",
+   "accent": "4b42146f21d1d1f5:e84636d4caa1682c",
+   "bold": "07589beeb47eeee5:132440c4cbca4b85",
+   "letters": "67cc5974483904ed:dd3a64ba64a597c2"
+  },
+  "svg": "1002293b0ce72ef8",
+  "f3": "afcdc1efef68bde3",
+  "f3s": "68ecc78809119baf",
+  "readme": "2465dc61cdac730a",
+  "bbox": [
+   -92,
+   -68.7578125,
+   92,
+   68.7578125
+  ]
+ },
+ "art_n_soccer": {
+  "mh": {
+   "base": "989633713b562393:689e8584a6de87d3",
+   "panel": "4220c1d425cb7fd1:849127e46617b636",
+   "accent": "ec9f5f34d8735097:47a2c6b7d7b6bab6",
+   "bold": "42bbdc1a3610cfd8:e6ceafb03c7145be",
+   "letters": "786692fe91643bb4:646d84fff2dd8cdc"
+  },
+  "svg": "5bfaf910990f6c1f",
+  "f3": "2a2d16854e4b6015",
+  "f3s": "d0ac93dc48634693",
+  "readme": "1284276cab6b98e5",
+  "bbox": [
+   -92,
+   -68.359375,
+   92,
+   68.359375
+  ]
+ },
+ "art_n_baseball": {
+  "mh": {
+   "base": "7efbe008a600ad43:a175dfad3d756a07",
+   "panel": "c04f09a3892d4b51:da737aec9afcc777",
+   "accent": "b8573dab19a981f4:2de87a7c7146008f",
+   "bold": "209137f8173491a7:d7cec51ef358849a",
+   "letters": "b0590c775360bbb5:dd3a64ba64a597c2"
+  },
+  "svg": "ac2d117ec7db880f",
+  "f3": "956d4a99b94dd261",
+  "f3s": "f2140f12cb76538e",
+  "readme": "911eea68b5208b7c",
+  "bbox": [
+   -92,
+   -68.625,
+   92,
+   68.625
+  ]
+ },
+ "art_n_hockey": {
+  "mh": {
+   "base": "e9ef2ebaa04a5c25:96b1a3abf2a353ec",
+   "panel": "399ef06893f9ff3c:0d0d063ed057e7da",
+   "accent": "280bda0b2835100b:14eea153b0b10ec5",
+   "bold": "42e9b96038f2550a:c1dfb3c64828f572",
+   "letters": "95d23dd8efa7a89e:646d84fff2dd8cdc"
+  },
+  "svg": "4a3a38a56839e186",
+  "f3": "ec4dcbf49aa7b2a2",
+  "f3s": "6117bef255f8df3b",
+  "readme": "d019245657aac423",
+  "bbox": [
+   -92,
+   -68.09375,
+   92,
+   68.09375
+  ]
+ },
+ "art_n_tennis": {
+  "mh": {
+   "base": "c2527a173869845b:ca66e29d987a66cf",
+   "panel": "20ee1328f7ff12ca:f8448bdba2b33a4e",
+   "accent": "dddd3a12f552718e:2bf2e7eb1e38190a",
+   "bold": "3bae2d00d45a0a30:8248535eb2e1ba59",
+   "letters": "6f3d9bdbcfff4bd0:fb2e289520e6f738"
+  },
+  "svg": "42fa0c4cd8336d41",
+  "f3": "efbfc4513a7d01b2",
+  "f3s": "2454b457b429147d",
+  "readme": "3eee307c42aa2a63",
+  "bbox": [
+   -92,
+   -69.0234375,
+   92,
+   69.0234375
+  ]
+ },
+ "art_n_golf": {
+  "mh": {
+   "base": "5a0f895e5587a435:2796a3c0be4a2e2f",
+   "panel": "e7d5f2c740033d9b:7a13ac31286f4200",
+   "accent": "0d139e781a27cb9a:5f68d3d5973685a0",
+   "bold": "8bc872261f986932:a4f54dddab3cd8b1",
+   "letters": "4026c9603dbdacce:dd3a64ba64a597c2"
+  },
+  "svg": "06832e0e371d1334",
+  "f3": "12da920e7d3239b4",
+  "f3s": "144b468eb7d4145e",
+  "readme": "8aea1e8635f63072",
+  "bbox": [
+   -92,
+   -69.5546875,
+   92,
+   69.5546875
+  ]
+ },
+ "art_n_volleyball": {
+  "mh": {
+   "base": "8e6b982d35e2b316:f77d8baa04838b51",
+   "panel": "b07b3654b2cd0841:56608a69605cf3ba",
+   "accent": "de8e897abe6429ec:35031f8c6d34f53d",
+   "bold": "b2245f1d7e7ebedb:b2ef426198e62277",
+   "letters": "7a9f6eb2a4351632:646d84fff2dd8cdc"
+  },
+  "svg": "b336a3481d35f9f7",
+  "f3": "a511e51def5eb72f",
+  "f3s": "b5f3de4ea0cdf9f3",
+  "readme": "bafda54ef1c9e771",
+  "bbox": [
+   -92,
+   -67.9609375,
+   92,
+   67.9609375
+  ]
+ },
+ "art_n_bowling": {
+  "mh": {
+   "base": "ffec1562eb2475da:69fca7fb01dcef0c",
+   "panel": "65bc7af2b478add7:96924f9c48d361a7",
+   "accent": "44573d118c042637:7227772e3b917bbc",
+   "bold": "a62eeeae2a3b6694:d0c56f9d5b7a8138",
+   "letters": "1cf02161c9210602:fb2e289520e6f738"
+  },
+  "svg": "32312096c9d4077d",
+  "f3": "6a7051f9a6d20fe0",
+  "f3s": "87ac3d0d445cb4d8",
+  "readme": "329642222149cc0c",
+  "bbox": [
+   -92,
+   -69.6875,
+   92,
+   69.6875
+  ]
+ },
+ "art_n_pickleball": {
+  "mh": {
+   "base": "fe5355c4bc070550:fab14a82e83ce4ae",
+   "panel": "85108128f0d6d145:e264f8b69ffbe33e",
+   "accent": "d233c343205233ac:3b10e362d281af66",
+   "bold": "3f8d742b010e53d0:7d2128312e01c154",
+   "letters": "df58001d12a0f7b5:4e412ebbac7070e3"
+  },
+  "svg": "9d1ecbf148c20197",
+  "f3": "1b8c48f856ddcca4",
+  "f3s": "0996039b9e1f0ce1",
+  "readme": "0e83f73934c2369b",
+  "bbox": [
+   -92,
+   -67.828125,
+   92,
+   67.828125
+  ]
+ },
+ "art_n_running": {
+  "mh": {
+   "base": "c1ece6e8c5564d18:90337cc9fce1dd6a",
+   "panel": "296b966bddfcaddd:93f945f0bb4ffed5",
+   "accent": "0b71835873931cef:5ed1f7c56f85abe1",
+   "bold": "e9583dcec69825cb:b16f3a133b235844",
+   "letters": "92150728780a77d6:646d84fff2dd8cdc"
+  },
+  "svg": "89caddcfd05f1721",
+  "f3": "448802c26c1a37f5",
+  "f3s": "0f8a1a448381977c",
+  "readme": "5ce532fde7aeb291",
+  "bbox": [
+   -92,
+   -69.6875,
+   92,
+   69.6875
+  ]
+ },
+ "art_n_cycling": {
+  "mh": {
+   "base": "ad52b8b4c70002e7:e843df37b115e552",
+   "panel": "6db1c62e173ebc13:112b44315988ffca",
+   "accent": "316578dce5fa06a5:b1f611834ded822d",
+   "bold": "3d8adbe4ddb345e7:4aee0f116a8d89aa",
+   "letters": "da37052b35aef5f5:fb2e289520e6f738"
+  },
+  "svg": "0145d5bf2eba5f0e",
+  "f3": "b342505697bfde5e",
+  "f3s": "46c163dec1a60acf",
+  "readme": "3e0cb8df42e35a01",
+  "bbox": [
+   -92,
+   -69.6875,
+   92,
+   69.6875
+  ]
+ },
+ "art_n_gym": {
+  "mh": {
+   "base": "d23b67b02a53043b:c962de88675862d3",
+   "panel": "8edcd3b2088fd353:419eef30aa379ce2",
+   "accent": "d45609f8bf712e61:ec958df8e2ad8fc8",
+   "bold": "4e48a9700c126645:69eeaa736d291441",
+   "letters": "62588bf20727e2a3:fb2e289520e6f738"
+  },
+  "svg": "952d35adcc448fb1",
+  "f3": "8d02ff03cde57fc5",
+  "f3s": "e4681aa3425a718d",
+  "readme": "5b1b03cb441547c5",
+  "bbox": [
+   -92,
+   -65.4375,
+   92,
+   65.4375
+  ]
+ },
+ "art_n_martial": {
+  "mh": {
+   "base": "2df45953ecc9e3a6:e6a57e1f20a341f3",
+   "panel": "191ca10fc4adf3a5:46f4022e116f47b7",
+   "accent": "db9a3082fb9f76c5:2faa7a63959f6d83",
+   "bold": "d4b7b0949b31f216:de34324c8a268d28",
+   "letters": "afacc70b735eabfd:646d84fff2dd8cdc"
+  },
+  "svg": "4c01f2cf96588013",
+  "f3": "ab6f811038cbd0d0",
+  "f3s": "8f158dd07603200a",
+  "readme": "9f3df04152416802",
+  "bbox": [
+   -92,
+   -69.6875,
+   92,
+   69.6875
+  ]
+ },
+ "art_n_cheer": {
+  "mh": {
+   "base": "b03f6c77f065b06f:d95fcb6229cde60f",
+   "panel": "56cf28a6d4e9e22a:4af1d72bdb5bc511",
+   "accent": "34dcc26dd7fc863d:934acb5d55cdabcf",
+   "bold": "c59a178c90dec6ef:3bc54b71a7c45091",
+   "letters": "11d1ef74685cb92e:4e412ebbac7070e3"
+  },
+  "svg": "76b6f5ba9745fa5f",
+  "f3": "88c0579de1bfe0dd",
+  "f3s": "1f273318f5be1bf5",
+  "readme": "6105557aad259f74",
+  "bbox": [
+   -92,
+   -67.23046875,
+   92,
+   67.23046875
+  ]
+ },
+ "art_n_skate": {
+  "mh": {
+   "base": "ea82345d0d800c7e:0ac38a45ac18883b",
+   "panel": "033bf331b1e7b8f1:d84fe6e27f544578",
+   "accent": "5ae7ba5bafba4968:431e0ea670d8d83d",
+   "bold": "65138a5338e6da19:e2f44b2744f8a83c",
+   "letters": "0b421093a717a96a:646d84fff2dd8cdc"
+  },
+  "svg": "38e4093850b00580",
+  "f3": "3c86d3b9d6dc8db7",
+  "f3s": "13d7a3e8d0cd12b5",
+  "readme": "d7106f6a62a4610b",
+  "bbox": [
+   -92,
+   -68.359375,
+   92,
+   68.359375
+  ]
+ },
+ "art_n_snow": {
+  "mh": {
+   "base": "3cbae2d017b834f2:86b2d9205eb999e8",
+   "panel": "897cf0948582446c:7da087274a3a7df5",
+   "accent": "9c3096d468de0f45:83657ef3c74b2248",
+   "bold": "9051d1b0b308b539:34aefe71331a6254",
+   "letters": "f3645e367091bc58:dd3a64ba64a597c2"
+  },
+  "svg": "2cff31dc0d7dfb5d",
+  "f3": "9d7b84ddaede2592",
+  "f3s": "5e6a6c03e4d6ee91",
+  "readme": "4ad59da073e6bd8d",
+  "bbox": [
+   -92,
+   -69.22265625,
+   92,
+   69.22265625
+  ]
+ },
+ "art_n_movies": {
+  "mh": {
+   "base": "b5f2789647c0cace:3806033ca330d303",
+   "panel": "2544890996150d1f:d6b877e5c2788d05",
+   "accent": "9bd3e3a6924b7a6d:5d6ed8fa3f5624bd",
+   "bold": "1c073f44b34587d4:8253906bbdbb8cce",
+   "letters": "76ade4a7a1409c0d:dd3a64ba64a597c2"
+  },
+  "svg": "114e10ffcc300ed2",
+  "f3": "b60e8e0b657222d8",
+  "f3s": "ad34c55c8b4027a4",
+  "readme": "1d056bf377625687",
+  "bbox": [
+   -92,
+   -65.171875,
+   92,
+   65.171875
+  ]
+ },
+ "art_n_tv": {
+  "mh": {
+   "base": "43d1b7f15430419f:c0ff8e57f3dd2e67",
+   "panel": "9957412bb6ede205:5778aaeec878f0e9",
+   "accent": "1250aa6ecf7c26f6:e4c90ade97671e8b",
+   "bold": "dae52476317eab1f:fccdae288fd3b90e",
+   "letters": "f2e1a67ad114ef69:dd3a64ba64a597c2"
+  },
+  "svg": "b8f37fce5a1e4b52",
+  "f3": "8f368b043aecc640",
+  "f3s": "2d07e5a6b4ca3681",
+  "readme": "d4e682295af910cc",
+  "bbox": [
+   -92,
+   -69.5546875,
+   92,
+   69.5546875
+  ]
+ },
+ "art_n_scifi": {
+  "mh": {
+   "base": "86f467450ac45047:c481d57d5c84a094",
+   "panel": "6752086279502d0e:79ebb7cf3b36118c",
+   "accent": "f61c5f83ef37fdaa:8664073f4286b035",
+   "bold": "126a68f3b9cdb848:ed8885f4dcedcfb5",
+   "letters": "a166ed47eb599370:646d84fff2dd8cdc"
+  },
+  "svg": "b86874c153bdf574",
+  "f3": "8ba3de951b7a999f",
+  "f3s": "8427a519aef635bd",
+  "readme": "63f8810c4839f4c4",
+  "bbox": [
+   -92,
+   -68.359375,
+   92,
+   68.359375
+  ]
+ },
+ "art_n_sitcom": {
+  "mh": {
+   "base": "958930fc5d72c3f3:8ec514a3c5f16d98",
+   "panel": "d56eb9114a1aac58:1fbadf67c45b277f",
+   "accent": "79eb1b8e592fb996:a070ad4674eb6892",
+   "bold": "61906e8a4205abd3:fc4128ef2eefa826",
+   "letters": "db5119213058dd48:4e412ebbac7070e3"
+  },
+  "svg": "5e83e4bc6850ea79",
+  "f3": "87c842a975caedd6",
+  "f3s": "9b422d3e7a1e4258",
+  "readme": "83a647ed758577bc",
+  "bbox": [
+   -92,
+   -68.625,
+   92,
+   68.625
+  ]
+ },
+ "art_n_crime": {
+  "mh": {
+   "base": "f59a365679cc158c:2ce47a14deef708b",
+   "panel": "0bd26e8028eee516:c32d69f5f5f298fd",
+   "accent": "347565d253dd882d:d5447b07004f9caa",
+   "bold": "7b9485a5550c1b5c:7c421941fd1b0a2a",
+   "letters": "1eb40fb01865ed77:fb2e289520e6f738"
+  },
+  "svg": "e70545e286b0e244",
+  "f3": "7ffd97afe9738ee0",
+  "f3s": "6d2051f6382e1aad",
+  "readme": "c65da7b190081299",
+  "bbox": [
+   -92,
+   -66.765625,
+   92,
+   66.765625
+  ]
+ },
+ "art_n_cartoons": {
+  "mh": {
+   "base": "77cb4c1d7c4d048e:b586900ca3c2c64f",
+   "panel": "ecd3119e4bba89b9:9d1d51fc5c4812c7",
+   "accent": "f5cad34965af1ffc:c302dc407e8b2a58",
+   "bold": "c5c852a24b25a017:17e4d3df801a3c45",
+   "letters": "f1573f3f63e2c892:4e412ebbac7070e3"
+  },
+  "svg": "45f2e110db9fb42a",
+  "f3": "e7e1dc0d03253c45",
+  "f3s": "ab4310af6834e93b",
+  "readme": "40a92f2f8846438c",
+  "bbox": [
+   -92,
+   -67.03125,
+   92,
+   67.03125
+  ]
+ },
+ "art_n_reality": {
+  "mh": {
+   "base": "10e09f71ca574661:fced7a09e41e25db",
+   "panel": "2d135853a8232498:9a8e5898fb1ed676",
+   "accent": "48d97c6e234a0e18:6578997a9d1e76e7",
+   "bold": "4892f972a2126ae6:7f60aece1598cc95",
+   "letters": "280365472a4b3575:646d84fff2dd8cdc"
+  },
+  "svg": "a3905433403260c1",
+  "f3": "d41d53f41ffcb79e",
+  "f3s": "dddfc301e11b3af5",
+  "readme": "a09b4ca4ae3e9cbb",
+  "bbox": [
+   -92,
+   -65.96875,
+   92,
+   65.96875
+  ]
+ },
+ "art_n_westerns": {
+  "mh": {
+   "base": "5ff51a4942cd6c34:f2bc93b2d31e2bff",
+   "panel": "38a04ed968eeaacd:f4cdc2ddd9d4c5a4",
+   "accent": "1c1ac88a9a94243f:000b0b4871748ef6",
+   "bold": "bdbd06a4cf74100f:fe29b1351e303500",
+   "letters": "a61914d7eda0556c:dd3a64ba64a597c2"
+  },
+  "svg": "ad9d2bbc790f87eb",
+  "f3": "32a89c17cd9d6469",
+  "f3s": "f73a3b5e9c8116d1",
+  "readme": "33ec8102f2e52774",
+  "bbox": [
+   -92,
+   -69.2890625,
+   92,
+   69.2890625
+  ]
+ },
+ "art_n_cooking": {
+  "mh": {
+   "base": "fe4026dd48fc4f0f:1c19336a89e9dbc5",
+   "panel": "244dae2c7b43a499:85cb40a092288f61",
+   "accent": "28601d11bf2da8b0:8ab2d72f56e51d1f",
+   "bold": "972725ef699fefba:f1202a93bb4032f7",
+   "letters": "12b44da34b365217:4e412ebbac7070e3"
+  },
+  "svg": "58fffd6750dbff5a",
+  "f3": "99b9ef67809c9c0d",
+  "f3s": "034fbb2c890d84e6",
+  "readme": "0a7807ac02a0e71a",
+  "bbox": [
+   -92,
+   -69.8203125,
+   92,
+   69.8203125
+  ]
+ },
+ "art_n_gameshow": {
+  "mh": {
+   "base": "f38380c0685fc4aa:94a38406fce28ea1",
+   "panel": "2390cb1556c8a116:ce2da2a1cde9979d",
+   "accent": "ddb7d585716409f9:004068e981bb688b",
+   "bold": "b4347eeee3a5787c:243ee5d0538e412c",
+   "letters": "2d54c551c883a436:646d84fff2dd8cdc"
+  },
+  "svg": "4b30507e7a87b94e",
+  "f3": "048a6af845749a7a",
+  "f3s": "42d9598b29fd4895",
+  "readme": "be3a384bf0e8d824",
+  "bbox": [
+   -92,
+   -67.9609375,
+   92,
+   67.9609375
+  ]
+ },
+ "art_n_horror": {
+  "mh": {
+   "base": "6425af021c63abe6:2da7cfcd9794e32b",
+   "panel": "45c92181bf407df2:a846f3d1cab9002b",
+   "accent": "64ea43eef0660a21:106a084244c0d5e6",
+   "bold": "8924f9d98e377a6c:626517fe8e3515b0",
+   "letters": "56d94ae0cbba1860:fb2e289520e6f738"
+  },
+  "svg": "68225353bf91da05",
+  "f3": "37f68d34200d5037",
+  "f3s": "e8dbf28f15658701",
+  "readme": "5dee27418e050ad0",
+  "bbox": [
+   -92,
+   -69.89429530201342,
+   92,
+   69.89429530201342
+  ]
+ },
+ "art_n_superhero": {
+  "mh": {
+   "base": "a076769801939e9d:e32f1db68e435bcd",
+   "panel": "db9fbcc826ae8b46:c88368efa205b811",
+   "accent": "4e55cc6e49fba46c:75b3c71c41633bf7",
+   "bold": "d3432e55d9b090e8:258ab860783600cb",
+   "letters": "7df2084d8db50a8f:646d84fff2dd8cdc"
+  },
+  "svg": "51175b8fc9459a4c",
+  "f3": "271553c720011745",
+  "f3s": "c4db53a2c479c11f",
+  "readme": "f8f2caacaf21e3ab",
+  "bbox": [
+   -92,
+   -68.890625,
+   92,
+   68.890625
+  ]
+ },
+ "art_n_fantasy": {
+  "mh": {
+   "base": "7015dc0acec08364:fc6c87b969f85272",
+   "panel": "5ffea9e1322effdd:bd55bab436f0f6d4",
+   "accent": "1f2acd2c9e4e1192:43556e269a8bdbc0",
+   "bold": "6bba4d6a751f02c6:dec46fd45f8ff941",
+   "letters": "685b4db623931102:dd3a64ba64a597c2"
+  },
+  "svg": "9d7a6ec04f0be211",
+  "f3": "77e23a606c9bb014",
+  "f3s": "7e56270058333d59",
+  "readme": "360b5abfd0b15f93",
+  "bbox": [
+   -92,
+   -69.88671875,
+   92,
+   69.88671875
+  ]
+ },
+ "art_n_anime": {
+  "mh": {
+   "base": "d5355c4d30fb4b4c:f5573e620b7e43da",
+   "panel": "b08aac78b72fc120:4ac32c58ddc28718",
+   "accent": "ea10d1fd05ce106c:02ba881654ffa10a",
+   "bold": "4b3e4fb2070587ae:01fd5067b7b9f78a",
+   "letters": "ab3b682b8ae99101:4e412ebbac7070e3"
+  },
+  "svg": "27ed7c5ab02a931a",
+  "f3": "8884ef40fb1b4cf3",
+  "f3s": "c84c9ff7c028c37d",
+  "readme": "3cea3a82778c036d",
+  "bbox": [
+   -92,
+   -67.5625,
+   92,
+   67.5625
+  ]
+ },
+ "art_n_cars": {
+  "mh": {
+   "base": "0f8105e9ac56238f:48635edc4b27edea",
+   "panel": "6611baceaa456ded:6420dc3f163fcf05",
+   "accent": "b78ad5ffb90e0808:9e52ff84ce304263",
+   "bold": "6fbf453041f61c5f:4ca370dc3f45e171",
+   "letters": "62cf1580662e7d18:fb2e289520e6f738"
+  },
+  "svg": "3dfcd50bf40ab7f2",
+  "f3": "2533c42b091bb837",
+  "f3s": "bb64087a1532bb57",
+  "readme": "f5ee7879522c8f09",
+  "bbox": [
+   -92,
+   -69.5546875,
+   92,
+   69.5546875
+  ]
+ },
+ "art_n_trucks": {
+  "mh": {
+   "base": "fcb8e10b063c4eb3:2f5139dfcaf5c5c3",
+   "panel": "cc8af10f9f990fe9:f21bb27356f987dd",
+   "accent": "fa36618fadc4c072:f8359e35a4d9bdc2",
+   "bold": "efedc5d91b560dc4:3eb0689beda779a0",
+   "letters": "5a5d1d7d6dedfd3e:fb2e289520e6f738"
+  },
+  "svg": "656afed61655f5ae",
+  "f3": "38886ff663909e39",
+  "f3s": "01c05ee09abb4d79",
+  "readme": "11e87440301ca9d4",
+  "bbox": [
+   -92,
+   -69.5546875,
+   92,
+   69.5546875
+  ]
+ },
+ "art_n_vans": {
+  "mh": {
+   "base": "ea9a1bf2a7805159:a8872197fe1f1467",
+   "panel": "bcc2fa6f41384510:0b0380749aa5eba3",
+   "accent": "c3f7ec6f5c983d3c:d71b2aec335e9745",
+   "bold": "c6e384ea1eaf8ef3:7cd2329976f46392",
+   "letters": "3317653ba73824c3:4e412ebbac7070e3"
+  },
+  "svg": "f486ec2b2ec7cf12",
+  "f3": "051c49dfd94c0628",
+  "f3s": "a6fe4a507d04ed31",
+  "readme": "5210c06b7f49af4d",
+  "bbox": [
+   -92,
+   -66.1015625,
+   92,
+   66.1015625
+  ]
+ },
+ "art_n_classics": {
+  "mh": {
+   "base": "6c62c3b8059e74c8:38c71c409f259154",
+   "panel": "2d0626cd6e0d255c:b20b403579d16120",
+   "accent": "54f82b94b73ac72e:879867fd53864989",
+   "bold": "7e1e26a4523b325c:a1d3426882d48754",
+   "letters": "6946b939c9346eb9:dd3a64ba64a597c2"
+  },
+  "svg": "9fa1e79d46a9ad07",
+  "f3": "b046504583327fa9",
+  "f3s": "dcf4cb873684c197",
+  "readme": "a83e7b1427e60079",
+  "bbox": [
+   -92,
+   -62.6484375,
+   92,
+   62.6484375
+  ]
+ },
+ "art_n_muscle": {
+  "mh": {
+   "base": "d7b4c66e41893883:270456537ec2b7cd",
+   "panel": "ddd4fe9d699de218:a85b943b39111c64",
+   "accent": "1a34ae49f37e9346:705b53adc4bc98da",
+   "bold": "fac7e46690010b48:e7fe610a702da812",
+   "letters": "1a14a11352ce33cc:646d84fff2dd8cdc"
+  },
+  "svg": "66f7786b80bfe20d",
+  "f3": "f4b2a1202d19add4",
+  "f3s": "51beb3071dddd73f",
+  "readme": "533276ce43f79c0d",
+  "bbox": [
+   -92,
+   -67.828125,
+   92,
+   67.828125
+  ]
+ },
+ "art_n_racing": {
+  "mh": {
+   "base": "9a67f32cbb2c8db5:7cfa742c5e966767",
+   "panel": "682c3de9a19e7eb3:beb1467095387f7a",
+   "accent": "92605019ac7e082c:6818ee7f633ffa44",
+   "bold": "c4940588dcfa0df4:a583793716ec4ea8",
+   "letters": "5f19766f702e2333:646d84fff2dd8cdc"
+  },
+  "svg": "32c7d131453bd309",
+  "f3": "d572b145c0ab88d6",
+  "f3s": "cd409ce219647a4b",
+  "readme": "31f04dd618dfa78b",
+  "bbox": [
+   -92,
+   -68.09375,
+   92,
+   68.09375
+  ]
+ },
+ "art_n_moto": {
+  "mh": {
+   "base": "8e973fcde1fc79b3:b2a5f223e71ad59e",
+   "panel": "4af449bfa5b7f342:b1dbc637b4b82beb",
+   "accent": "a539cccc1b0a299c:66f69a54d623cbf8",
+   "bold": "4427b9b81f66ce6f:3de1d8da6ce000d4",
+   "letters": "c2dadd584addf265:fb2e289520e6f738"
+  },
+  "svg": "b4aa3e1eb8e74458",
+  "f3": "ec1145ba3bac34d3",
+  "f3s": "d98ef68cd3e9087d",
+  "readme": "c00bdc7b86217e41",
+  "bbox": [
+   -92,
+   -65.96875,
+   92,
+   65.96875
+  ]
+ },
+ "art_n_offroad": {
+  "mh": {
+   "base": "30794e50590dadbc:4f0bce2ea6411e61",
+   "panel": "19adc0f2d9898f12:a54d2748e073ba9b",
+   "accent": "3f7e509fef61292f:0d51778c3deac1fc",
+   "bold": "095dc914da6f22d2:432a5269b12aae5b",
+   "letters": "22d49a80c71264e7:fb2e289520e6f738"
+  },
+  "svg": "0abd3800eac4afe5",
+  "f3": "d2c7eb23c384a860",
+  "f3s": "29aa2ea422b90a51",
+  "readme": "6ef9a915bb0b0dfa",
+  "bbox": [
+   -92,
+   -68.359375,
+   92,
+   68.359375
+  ]
+ },
+ "art_n_farm": {
+  "mh": {
+   "base": "b2aab26abbc47c4a:e3ff17dea96d5db8",
+   "panel": "aaf49f61af9179ed:dc7a9bb3672e33ba",
+   "accent": "1e465840e7839371:217685dcb8e6938a",
+   "bold": "c2029b0a73fb0c61:7b6d98081c60abbb",
+   "letters": "0f09a94235a77762:dd3a64ba64a597c2"
+  },
+  "svg": "44c6f1005022771d",
+  "f3": "0698aaf8c0b9d7b3",
+  "f3s": "9b350db06875f7d3",
+  "readme": "365bcd528937da44",
+  "bbox": [
+   -92,
+   -66.6328125,
+   92,
+   66.6328125
+  ]
+ },
+ "art_n_shop": {
+  "mh": {
+   "base": "e432ebfc1f590ef0:4c854b68a8b00b3f",
+   "panel": "00a85ce277910981:fb7bbee4d7fd62b6",
+   "accent": "bd6a376f5b9a122e:c814a6dd714230e8",
+   "bold": "329de289a1adc607:252fe4f6a7f971ef",
+   "letters": "942b63ab80eec99d:fb2e289520e6f738"
+  },
+  "svg": "b8f9157a4a553e0a",
+  "f3": "6834e042ea0db996",
+  "f3s": "43aedb4c006550de",
+  "readme": "1b76cb2dc8886e9a",
+  "bbox": [
+   -92,
+   -68.2265625,
+   92,
+   68.2265625
+  ]
+ },
+ "art_n_music": {
+  "mh": {
+   "base": "5ed26b26acabdc5f:9760d12360616b14",
+   "panel": "37a97510bdca44bc:1cdabb6aed66fa61",
+   "accent": "ca5fc34c48ca1b11:a308e7a8983dbb6d",
+   "bold": "5935c88f9f25f710:d56bf7bd47398829",
+   "letters": "9a8ea9b25f4453e5:646d84fff2dd8cdc"
+  },
+  "svg": "2cb5374d711f9da2",
+  "f3": "41ea24012b0f770e",
+  "f3s": "8f2526606d12951d",
+  "readme": "537e2d4c3be7e9dc",
+  "bbox": [
+   -92,
+   -69.2890625,
+   92,
+   69.2890625
+  ]
+ },
+ "art_n_country": {
+  "mh": {
+   "base": "f7a881f9625d0818:8de2abfea258d064",
+   "panel": "3b148611bf04ccce:1517f63b9bee74de",
+   "accent": "f396dbf5a237fcaa:f7e02f0e0d60502c",
+   "bold": "9e26257f57fcf673:4ed4471f9b62e727",
+   "letters": "ac47a5ccfbedfa9c:dd3a64ba64a597c2"
+  },
+  "svg": "f81f47eca170d939",
+  "f3": "21241713212375c1",
+  "f3s": "08b141e540bb26d3",
+  "readme": "2173943ea60f45ef",
+  "bbox": [
+   -92,
+   -69.0234375,
+   92,
+   69.0234375
+  ]
+ },
+ "art_n_rock": {
+  "mh": {
+   "base": "0a81f3f4cc95fdb6:e489c43ba7e88780",
+   "panel": "7c9c60c7522e240e:04b83fa7b12bdc43",
+   "accent": "bb3cd3982efacc8b:f2c3b6c9d061d4cf",
+   "bold": "04c09b583957e614:1bcb41d4ad56ffba",
+   "letters": "c5d8a9f51df7fc94:fb2e289520e6f738"
+  },
+  "svg": "dd5e10396c1c4e97",
+  "f3": "300ec0ea21602679",
+  "f3s": "d06474dbe6c3ea6f",
+  "readme": "24d5493e4adcdd9a",
+  "bbox": [
+   -92,
+   -67.296875,
+   92,
+   67.296875
+  ]
+ },
+ "art_n_hiphop": {
+  "mh": {
+   "base": "f553d25fc2a4b66e:4b4b979303137f0b",
+   "panel": "962ca5749f478158:8510247e79099eb4",
+   "accent": "99509f40d8497939:0377f82ca1868e1a",
+   "bold": "4261b576c28e8cef:a66f5133251492e2",
+   "letters": "01e7a6e4d649b3a0:646d84fff2dd8cdc"
+  },
+  "svg": "81e6faea8f2ea6c9",
+  "f3": "d7600d737baf4ced",
+  "f3s": "a5b8a6a1c6d691dd",
+  "readme": "c762ee8ff1156dac",
+  "bbox": [
+   -92,
+   -68.625,
+   92,
+   68.625
+  ]
+ },
+ "art_n_jazz": {
+  "mh": {
+   "base": "40238aa1f2031105:354f19ea532ddef9",
+   "panel": "ea7a50332bd9e2d0:f06c20e98b28fef3",
+   "accent": "99ddeb9232c6912b:7f9f030c8a7e22ac",
+   "bold": "98fa7a0de2498287:f5d1c055251cdb33",
+   "letters": "26cb07f383c896b0:dd3a64ba64a597c2"
+  },
+  "svg": "84afd2bbdcdfba66",
+  "f3": "d7566eae815bb812",
+  "f3s": "0b9b91b4bf45aa8f",
+  "readme": "9acb4077a5ff9c1b",
+  "bbox": [
+   -92,
+   -69.953125,
+   92,
+   69.953125
+  ]
+ },
+ "art_n_blues": {
+  "mh": {
+   "base": "2a432ffa225a32dd:6606feb6e9e0426b",
+   "panel": "db268c19638575d6:e055838ceed29168",
+   "accent": "bbb2f2e19d60c50b:f4a21766f59d48cb",
+   "bold": "13ef11130cee5367:5d0d23051dcf1178",
+   "letters": "34bc1d52c505bb6b:fb2e289520e6f738"
+  },
+  "svg": "c728ef042dcad7e6",
+  "f3": "3d07b72b62c88281",
+  "f3s": "7f357e93cf31bd95",
+  "readme": "613b9410e139bdee",
+  "bbox": [
+   -92,
+   -69.2890625,
+   92,
+   69.2890625
+  ]
+ },
+ "art_n_classical": {
+  "mh": {
+   "base": "4a4f625a2dd90bc9:c7b7e461ed2a449a",
+   "panel": "83c79a9e41cf2353:e6f2ffc7325721f3",
+   "accent": "6c077f8b58e37328:944903ba5b811fbb",
+   "bold": "b88e80070c9a0c86:7a82f983b5c7f33b",
+   "letters": "606b905630830623:dd3a64ba64a597c2"
+  },
+  "svg": "0e385f6a619add8f",
+  "f3": "1ae6c7f3320f4a42",
+  "f3s": "ea211e545b30761b",
+  "readme": "236d64794576329d",
+  "bbox": [
+   -92,
+   -68.4921875,
+   92,
+   68.4921875
+  ]
+ },
+ "art_n_edm": {
+  "mh": {
+   "base": "5721ee021e741bbf:cba29d4ab0b6e75a",
+   "panel": "6e936f7f63e34cc3:b2a333f89af025cd",
+   "accent": "aaa95a4a639019b2:5c6e016d28a8c7b3",
+   "bold": "fd1f10ec7379fbbf:b1153b2269fa3156",
+   "letters": "64f65f80106155da:646d84fff2dd8cdc"
+  },
+  "svg": "5cdb653a9af6544e",
+  "f3": "f98a52a956bb48f5",
+  "f3s": "b49d964c3781e707",
+  "readme": "efc599e552526cd7",
+  "bbox": [
+   -92,
+   -67.296875,
+   92,
+   67.296875
+  ]
+ },
+ "art_n_metal": {
+  "mh": {
+   "base": "acbb8692aeef7893:e9d3787de68aa6b0",
+   "panel": "a58eaccc2cef07a3:41134f56802a5207",
+   "accent": "8d19242478db63d2:37cd34947947bc9d",
+   "bold": "05523ebebeeb2a1b:e2f8aacd9e2fd245",
+   "letters": "56c7a55e90579401:fb2e289520e6f738"
+  },
+  "svg": "96d5f7561224d8ff",
+  "f3": "5ef5e356ee68be21",
+  "f3s": "2b8d2ea62e4b5147",
+  "readme": "bf7cb63628bb8286",
+  "bbox": [
+   -92,
+   -69.6875,
+   92,
+   69.6875
+  ]
+ },
+ "art_n_pop": {
+  "mh": {
+   "base": "25e0aeca72105cf9:8fc143320fa4c9c4",
+   "panel": "42a06f9017dd663c:7fe4a571002a63f1",
+   "accent": "a6f88638c0c2a145:c4174fe78985988f",
+   "bold": "a0e972703e35902b:57b8046d05845f5d",
+   "letters": "34235f11e0717ca1:4e412ebbac7070e3"
+  },
+  "svg": "77e93deb49c818b8",
+  "f3": "203ac28a79789d29",
+  "f3s": "21db7d2ac63183e4",
+  "readme": "958fbabf5c57efcb",
+  "bbox": [
+   -92,
+   -69.2890625,
+   92,
+   69.2890625
+  ]
+ },
+ "art_n_rnb": {
+  "mh": {
+   "base": "b48bfe6350c7c43e:c300177c583f1f96",
+   "panel": "edf29a2051d6a284:6082c90625288ec8",
+   "accent": "f50b273e2c56fd92:48bb6fa7cfc930a9",
+   "bold": "7078ad7d0d22b401:2cbc251636d09149",
+   "letters": "6b2bb4379860b41d:dd3a64ba64a597c2"
+  },
+  "svg": "01f17f8ed7c225c2",
+  "f3": "cba6689242bb1d62",
+  "f3s": "6a63969348639010",
+  "readme": "ac0d3a55d956962b",
+  "bbox": [
+   -92,
+   -67.5625,
+   92,
+   67.5625
+  ]
+ },
+ "art_n_reggae": {
+  "mh": {
+   "base": "f8da7978100b8fac:d4f55c599392ce4a",
+   "panel": "f971119f4c3d4a44:1aa7054ebd196cb4",
+   "accent": "e84489b60fd5c976:b2bc9d4a1592deaf",
+   "bold": "277b71c648db2c4e:bfdbf71435585fa3",
+   "letters": "c58e7b8c6a26dcaa:4e412ebbac7070e3"
+  },
+  "svg": "b83b19c6bd7e332f",
+  "f3": "e5070f6eb1359bda",
+  "f3s": "11ea609549182691",
+  "readme": "e35cd692ad455abf",
+  "bbox": [
+   -92,
+   -68.2265625,
+   92,
+   68.2265625
+  ]
+ },
+ "art_n_latin": {
+  "mh": {
+   "base": "c141f97e6df04bf6:7576606ce1597c8a",
+   "panel": "c00a51ea08cd654a:40ba9f30d377c5b7",
+   "accent": "a9666570f074eea4:3962b305802131fe",
+   "bold": "98a33f48b7e2f1b2:91e1d37cabc299f0",
+   "letters": "6fc31fb3152f8f38:dd3a64ba64a597c2"
+  },
+  "svg": "dab9fd5aab78850f",
+  "f3": "d9b59713468b4fcd",
+  "f3s": "48779431b98617fd",
+  "readme": "68d7a7a4ed15095b",
+  "bbox": [
+   -92,
+   -68.09375,
+   92,
+   68.09375
+  ]
+ },
+ "art_n_fishing": {
+  "mh": {
+   "base": "aa5245781e7fbfb3:81448a50a15b1bf4",
+   "panel": "8fcf198566d62d07:4e96cdae54a7864a",
+   "accent": "1387ab05181efe11:a5fe9257b6186b89",
+   "bold": "e9e79a4afea46ff1:f57df77bc93f4125",
+   "letters": "0dcf3e4dcf7f6f2c:dd3a64ba64a597c2"
+  },
+  "svg": "165a516320c40eef",
+  "f3": "62675098716d5fc1",
+  "f3s": "942c432c4c945160",
+  "readme": "c460993921ee1f80",
+  "bbox": [
+   -92,
+   -66.234375,
+   92,
+   66.234375
+  ]
+ },
+ "art_n_hunting": {
+  "mh": {
+   "base": "c8ee1d7dd82c6c14:db08eedc111daa6f",
+   "panel": "1abd126f6992a0c4:22b9bf965b2be1a1",
+   "accent": "4dd224c42b617271:646420fd0ed0f709",
+   "bold": "f3fee320e8e20d14:8c1bde695975e831",
+   "letters": "0d8a80eacd7c1475:dd3a64ba64a597c2"
+  },
+  "svg": "892123a25d297b1c",
+  "f3": "29226f8f88ece281",
+  "f3s": "dd06656bd7f3b64b",
+  "readme": "fa569e60d85faee3",
+  "bbox": [
+   -92,
+   -70.01953125,
+   92,
+   70.01953125
+  ]
+ },
+ "art_n_camping": {
+  "mh": {
+   "base": "5b7dc62e22346399:234f97088c21c6ad",
+   "panel": "929d8580e97db7d7:278446eee11f47de",
+   "accent": "a78471d51fbc3ee4:3b5857b7bef07247",
+   "bold": "f7eab2e49b498a34:66863bf39e509572",
+   "letters": "0547c171d87d4f58:fb2e289520e6f738"
+  },
+  "svg": "9455724a243cdabb",
+  "f3": "350328cd0fb757a8",
+  "f3s": "2bcbe11968ca037b",
+  "readme": "f40530ec9fc5fcfe",
+  "bbox": [
+   -92,
+   -67.03125,
+   92,
+   67.03125
+  ]
+ },
+ "art_n_hiking": {
+  "mh": {
+   "base": "11f8bd820ab3614f:0fe06fb030f4805b",
+   "panel": "d6bc3939331cde21:e2123bf0fdba3a47",
+   "accent": "fc89c49c4b4a2b99:aa70181b7b3fc4f0",
+   "bold": "be58f2902ed721c7:fee139cc1b696cfc",
+   "letters": "3ee37481afc1cc8d:fb2e289520e6f738"
+  },
+  "svg": "0771233fd5c81376",
+  "f3": "1568453cb0d679fd",
+  "f3s": "d3a7e8c8cc9fb4a3",
+  "readme": "da7e5cca32c464e2",
+  "bbox": [
+   -92,
+   -66.8984375,
+   92,
+   66.8984375
+  ]
+ },
+ "art_n_boating": {
+  "mh": {
+   "base": "09667fcb873a6502:eb5bf51643340466",
+   "panel": "1ec29f4f3eda24f8:2d081a3336dcb71d",
+   "accent": "54ce546807170848:1c459ea9b1afecaf",
+   "bold": "0842e71fe43fc8db:b7090f498c165eda",
+   "letters": "6e1e68fb96c6f34c:dd3a64ba64a597c2"
+  },
+  "svg": "a9a384faba6b47c6",
+  "f3": "c6a0476ed68fd5ca",
+  "f3s": "95bf370fe3862eb9",
+  "readme": "80422610bfef7748",
+  "bbox": [
+   -92,
+   -69.421875,
+   92,
+   69.421875
+  ]
+ },
+ "art_n_beach": {
+  "mh": {
+   "base": "6d3397e6c7b940b0:9ed3e6b29b3aad2c",
+   "panel": "37d38d3e26357c83:2b8644ce5073317a",
+   "accent": "53f33059a35c08a8:c395c8ee4d61da0a",
+   "bold": "75b630e73878cfdb:8e48ba4cf59887a8",
+   "letters": "e3220922d9fbaf9a:4e412ebbac7070e3"
+  },
+  "svg": "73894aff57f1ac26",
+  "f3": "e74d8243dbdde469",
+  "f3s": "7eedb6448d18504c",
+  "readme": "2cc9943b0af3b47d",
+  "bbox": [
+   -92,
+   -66.234375,
+   92,
+   66.234375
+  ]
+ },
+ "art_n_birding": {
+  "mh": {
+   "base": "8ba35c6eaa8c7415:0e463da126d37a0a",
+   "panel": "27bb314873822866:9be53e5c70ca55de",
+   "accent": "d72e58591bfedee5:b51610498d2ae60f",
+   "bold": "ab710c49d38d27f5:7405c7cb8ed4d60c",
+   "letters": "2d8f2f24a96f5632:4e412ebbac7070e3"
+  },
+  "svg": "5bbded8cb741ad3e",
+  "f3": "f61fb0685088ecb8",
+  "f3s": "8ed8cbcd7a3dc9d6",
+  "readme": "2eddc787025604bb",
+  "bbox": [
+   -92,
+   -67.76171875,
+   92,
+   67.76171875
+  ]
+ },
+ "art_n_ranch": {
+  "mh": {
+   "base": "2b6313d243068ae2:e57822a52f201708",
+   "panel": "ae25164b90021a10:5a3d321af3e943cc",
+   "accent": "039f20b620a5099c:28645436e13286df",
+   "bold": "d9e02584f0cd410c:26ac2289c3477270",
+   "letters": "b4c46dfa724f7ecb:dd3a64ba64a597c2"
+  },
+  "svg": "2b22e23ba4f8801f",
+  "f3": "d061976f9b084bc9",
+  "f3s": "deb5100ba434b406",
+  "readme": "6bd661695c7f10e9",
+  "bbox": [
+   -92,
+   -69.5546875,
+   92,
+   69.5546875
+  ]
+ },
+ "art_n_kitchen": {
+  "mh": {
+   "base": "cc4e4a8667bebf2f:531d2226dc1ad267",
+   "panel": "e1aa46f0aad9b56c:dde32726306258d4",
+   "accent": "59a7a4a298c9da42:a3b76591941599fa",
+   "bold": "921e27228af1aeac:f8679d8b95a9e8a5",
+   "letters": "3f3f07ca27bf0ea0:4e412ebbac7070e3"
+  },
+  "svg": "522c13b7c9b59efc",
+  "f3": "7217d66df66a3558",
+  "f3s": "79326977dbb94741",
+  "readme": "a4f19c6ef97b014a",
+  "bbox": [
+   -92,
+   -69.6875,
+   92,
+   69.6875
+  ]
+ },
+ "art_n_grill": {
+  "mh": {
+   "base": "b0d688ed59166a81:dbfb924940c30247",
+   "panel": "194f9888fba65dff:2d7297b0e3b3fb42",
+   "accent": "660c75c499e496aa:f8db3db40ba0e8e0",
+   "bold": "cb4a9a87b67a5dd0:0d8aad7c24fbbc49",
+   "letters": "dccf0e126d83ac1f:fb2e289520e6f738"
+  },
+  "svg": "d33d52a18b819064",
+  "f3": "b2b6328fa3e432f7",
+  "f3s": "e03863a9a6f08a9f",
+  "readme": "eb0083b0667ef5a0",
+  "bbox": [
+   -92,
+   -69.0234375,
+   92,
+   69.0234375
+  ]
+ },
+ "art_n_books": {
+  "mh": {
+   "base": "959aa647f15bdc58:7275e2041dff63c9",
+   "panel": "68a4e646cc265366:359a920a036618fc",
+   "accent": "700d6532454ab770:46d0d2ac90a03ff8",
+   "bold": "98e672bc9d8aadbf:1b9941fd0211d3d0",
+   "letters": "24d966be3594cd70:dd3a64ba64a597c2"
+  },
+  "svg": "1d0ae49674213b25",
+  "f3": "472b1268b8c7a513",
+  "f3s": "a44859c3d017bfe5",
+  "readme": "144ed49a4b7bc84c",
+  "bbox": [
+   -92,
+   -67.296875,
+   92,
+   67.296875
+  ]
+ },
+ "art_n_pets": {
+  "mh": {
+   "base": "f3989f57b99b36fa:fb152d0dcd3ec0a9",
+   "panel": "945f66c44da1295a:638b0b1542f066c8",
+   "accent": "0ae5009525bfda56:5e8fc4f34194d5b3",
+   "bold": "3ccf12835f532f38:42b3b575a9ad6e06",
+   "letters": "93517800d8d9547c:4e412ebbac7070e3"
+  },
+  "svg": "9b516df9d003cd0a",
+  "f3": "2ae2a04a9fe3a1f5",
+  "f3s": "70882b52fd0c99ca",
+  "readme": "491ff57bc99ea487",
+  "bbox": [
+   -92,
+   -69.6875,
+   92,
+   69.6875
+  ]
+ },
+ "art_n_gaming": {
+  "mh": {
+   "base": "cca8bcc7282e5c14:03aa3ed4f60441b3",
+   "panel": "18bd707df7a7df93:811735a6a6b27a4c",
+   "accent": "e7ab68d8307dbf7b:a5f60f772dcd8786",
+   "bold": "999c4f427fff88ab:1be5b0409be92ad5",
+   "letters": "190bf19934370c9e:646d84fff2dd8cdc"
+  },
+  "svg": "408ecbed27cd7e9b",
+  "f3": "b609f9c3b7ad4d7f",
+  "f3s": "2bd3c34825f59810",
+  "readme": "b967c644b77a6c22",
+  "bbox": [
+   -92,
+   -67.03125,
+   92,
+   67.03125
+  ]
+ },
+ "art_n_gameroom": {
+  "mh": {
+   "base": "01c5ede5a47ad92c:dd5e6f758e8cec03",
+   "panel": "9c17d644ff0f9103:ce37065a512e72d8",
+   "accent": "47148e223b2044d5:db9406c3ec1e507c",
+   "bold": "14d5f15b8aebc5d0:3fdfe96ffa55a451",
+   "letters": "0377b9b7307da93e:dd3a64ba64a597c2"
+  },
+  "svg": "abd7f9a6d4de7942",
+  "f3": "02aafcd4214054de",
+  "f3s": "4bf81d2a01546d26",
+  "readme": "b677282242784b31",
+  "bbox": [
+   -92,
+   -68.359375,
+   92,
+   68.359375
+  ]
+ },
+ "art_n_photo": {
+  "mh": {
+   "base": "4e63474dc9e306c5:4673db9eae09f94c",
+   "panel": "5521a57620556d34:51042697e69c2031",
+   "accent": "762464cd0e9f8872:55e4d7f65e9252de",
+   "bold": "df4f6dd1b8b62bf0:ab11e08a8388b183",
+   "letters": "a288f6b2abad2666:fb2e289520e6f738"
+  },
+  "svg": "075bdd5cc2abbb2e",
+  "f3": "6127aca3516df51c",
+  "f3s": "98bb0f9225b496c3",
+  "readme": "f1f5cf72695accfb",
+  "bbox": [
+   -92,
+   -65.96875,
+   92,
+   65.96875
+  ]
+ },
+ "art_n_crafts": {
+  "mh": {
+   "base": "e4c2fe7e48190814:60d71b285b3a4261",
+   "panel": "598a66f70cfe0cce:ba6e73a1e040f023",
+   "accent": "b0d48b02f54c6049:80f1e029d6a44234",
+   "bold": "03572b189a686daa:a4bcc1f451fd13f2",
+   "letters": "8cb78b6d188bc45c:4e412ebbac7070e3"
+  },
+  "svg": "684f71f104c45834",
+  "f3": "0aa5128e04e2cfad",
+  "f3s": "7f1ea92260b865e7",
+  "readme": "75860f110fbed7ac",
+  "bbox": [
+   -92,
+   -68.4921875,
+   92,
+   68.4921875
+  ]
+ },
+ "art_n_garden": {
+  "mh": {
+   "base": "0ea75d9ac4667f12:4e4317f8602ef4cd",
+   "panel": "9b649817b945928a:171464dc074e6cb1",
+   "accent": "02e62463fc7640e0:ab49983860021f5e",
+   "bold": "94ba1ac91b6b1f9d:e7b8d5c79eed66fa",
+   "letters": "ff2dded53883860b:4e412ebbac7070e3"
+  },
+  "svg": "d30fc46569f814bb",
+  "f3": "761631ba861ed597",
+  "f3s": "e531cb2ea1fea91e",
+  "readme": "d3663683d3af2353",
+  "bbox": [
+   -92,
+   -68.359375,
+   92,
+   68.359375
+  ]
+ },
+ "art_n_workshop": {
+  "mh": {
+   "base": "dd2ad28db987d695:b7bd9a8e5f386fe0",
+   "panel": "2bc101a515f860e2:1bcccea31bf9d80f",
+   "accent": "7884068bccb3643a:705165ff1d300eb1",
+   "bold": "7d3c868fab8085dd:b6a2d105ac300621",
+   "letters": "0a5995b512e64a26:fb2e289520e6f738"
+  },
+  "svg": "37c0d5b127254c88",
+  "f3": "7be702e765e1a64d",
+  "f3s": "0a08bf309aa1c9ce",
+  "readme": "4d06ffb935d465c3",
+  "bbox": [
+   -92,
+   -64.90625,
+   92,
+   64.90625
+  ]
+ },
+ "art_n_travel": {
+  "mh": {
+   "base": "2cfc0ff298e787b4:4954240d4b10d219",
+   "panel": "999a2c474fc5395b:e17022b1d9e8f8c1",
+   "accent": "0f550866ce3eebc4:9867cdcf300345cd",
+   "bold": "30057b343ef52ee5:41df3d882c191c4a",
+   "letters": "e0bf752a7942ed45:dd3a64ba64a597c2"
+  },
+  "svg": "c1ec01d1302b0deb",
+  "f3": "78fd5688fa56e60e",
+  "f3s": "85b0dde8c20a3a05",
+  "readme": "b71051d01708f85e",
+  "bbox": [
+   -92,
+   -69.421875,
+   92,
+   69.421875
+  ]
+ },
+ "art_n_drinks": {
+  "mh": {
+   "base": "81abb8536a44ed91:a32ae6b9859fdf3d",
+   "panel": "5d293a1dab8f33b8:21266240dece89be",
+   "accent": "c83ac38f4f49a2c4:a2a2584e39c12bb0",
+   "bold": "176b9b1e201cbc48:9e546579711c4d8a",
+   "letters": "5ed36265e704389a:dd3a64ba64a597c2"
+  },
+  "svg": "f921519a71ae5f7e",
+  "f3": "06522864a028add3",
+  "f3s": "fb14f1147b9713ab",
+  "readme": "22d5c4ae31412008",
+  "bbox": [
+   -92,
+   -69.6875,
+   92,
+   69.6875
+  ]
+ },
+ "art_n_coffee": {
+  "mh": {
+   "base": "6d1af671ed6018a7:d330b50c9edddd06",
+   "panel": "5fe33b96b2e0abe5:ad8b9bd298ac4896",
+   "accent": "f4e4721a3813cfce:1d757c32dac3ccf3",
+   "bold": "489b0c7f6c50390d:2814f5e9736951a6",
+   "letters": "298066518a8df3e2:4e412ebbac7070e3"
+  },
+  "svg": "f2bda72f7fcff9e8",
+  "f3": "c496366a6bf23c6c",
+  "f3s": "9312f78a8ac9063a",
+  "readme": "2f4db2a480bf44a3",
+  "bbox": [
+   -92,
+   -68.890625,
+   92,
+   68.890625
+  ]
+ },
+ "art_n_doctor": {
+  "mh": {
+   "base": "4627ec055e2ab68b:62d432368c083309",
+   "panel": "b95faee4ab92c3de:57e5277fd5647474",
+   "accent": "340fcbef6180c08a:8d6e0bfa03ee5a89",
+   "bold": "6a6cfdee6490dd02:1ba9572405f01469",
+   "letters": "35c7d7653e0d36c4:dd3a64ba64a597c2"
+  },
+  "svg": "9f99ece1a5cba5be",
+  "f3": "13eb819222fa066c",
+  "f3s": "03bd7f4ecfe380d2",
+  "readme": "4f2af23ed0692a29",
+  "bbox": [
+   -92,
+   -68.890625,
+   92,
+   68.890625
+  ]
+ },
+ "art_n_nurse": {
+  "mh": {
+   "base": "6ac369f7ec05da71:b83b7dcb9278d88e",
+   "panel": "449210d0715bf692:a349a76b0a1cfcc9",
+   "accent": "b4d0c8dbc7af8edc:17f9b4f676572525",
+   "bold": "d1166820912ae881:5197d29d563dc9f9",
+   "letters": "f7138106b51806a3:4e412ebbac7070e3"
+  },
+  "svg": "2c05efe908e35405",
+  "f3": "2246ceda55166afc",
+  "f3s": "3c09b20b7dda0afe",
+  "readme": "60116be7719065d0",
+  "bbox": [
+   -92,
+   -65.96875,
+   92,
+   65.96875
+  ]
+ },
+ "art_n_eyecare": {
+  "mh": {
+   "base": "b6a23467591441cc:262fa3aec6adc3ac",
+   "panel": "f53705ab43803663:a52a96e188a5bf41",
+   "accent": "da16df090b02f91d:e6603f514b23010e",
+   "bold": "3049cc53d7319ae7:370f3310e3e1c3e1",
+   "letters": "05001f4a456ee6e5:646d84fff2dd8cdc"
+  },
+  "svg": "e3efe84eee61ef1f",
+  "f3": "5c339f01badd7603",
+  "f3s": "49ad3ac553f85113",
+  "readme": "637ba892577fcbba",
+  "bbox": [
+   -92,
+   -68.2265625,
+   92,
+   68.2265625
+  ]
+ },
+ "art_n_teacher": {
+  "mh": {
+   "base": "08854f1301cd9c57:26ffa7cac663946b",
+   "panel": "449ffeace03bb246:c4d76f8cea244712",
+   "accent": "0d2a8705572e4d2f:fa2330078fed1ae6",
+   "bold": "f531524c7a06fe75:3602240f0b82e7ab",
+   "letters": "35c64a116f44d2d2:dd3a64ba64a597c2"
+  },
+  "svg": "6e4ece21e7be17b8",
+  "f3": "7c3575110c967802",
+  "f3s": "25992d0326af09bb",
+  "readme": "18813f96279991bd",
+  "bbox": [
+   -92,
+   -69.2890625,
+   92,
+   69.2890625
+  ]
+ },
+ "art_n_charleston": {
+  "mh": {
+   "base": "a5ce8e2f2ac6f06e:d33a5e7c978724d8",
+   "panel": "f999c1574427439e:266747591b1eed9e",
+   "accent": "188ad45a03abb97b:4e3573b605959d1c",
+   "bold": "4f0d597a2caf532f:1c77382340f89f9c",
+   "letters": "52543cc8a2218f15:dd3a64ba64a597c2"
+  },
+  "svg": "0bbb30f05289887d",
+  "f3": "e6a2c7164928fe19",
+  "f3s": "7c9eaa94e6b6613b",
+  "readme": "dde1327f63d85e19",
+  "bbox": [
+   -92,
+   -66.234375,
+   92,
+   66.234375
+  ]
+ },
+ "art_k_greenthumb": {
+  "mh": {
+   "base": "0965a620e498dd57:81ea51d4f8adc6cc",
+   "panel": "9a3c615bd52dd4c8:a3ed06b5d1944cef",
+   "accent": "399fee1203183dba:2f93ef8a1b4e4fd9",
+   "bold": "0705c3ece9512048:7c4051a912e045b1",
+   "letters": "bb7ff9a0d8235a17:4e412ebbac7070e3"
+  },
+  "svg": "086d8a9331488d94",
+  "f3": "db606c8e8b0f390f",
+  "f3s": "21bc048ef8d70dda",
+  "readme": "9ebdd779f2de0b0b",
+  "bbox": [
+   -92,
+   -59.81948881789137,
+   92,
+   59.81948881789137
+  ]
+ },
+ "art_k_sawdust": {
+  "mh": {
+   "base": "05cb2f0db9c28e8d:a1db183038a019fc",
+   "panel": "47fd383530099bb5:fe1f8e3ea10807aa",
+   "accent": "2f496f668b95b906:e18f914fc3b70a63",
+   "bold": "4b0ea64a24821e7c:8a732c4c82aaa51c",
+   "letters": "ca7057b7e3fec310:fb2e289520e6f738"
+  },
+  "svg": "2983c0394e1c8e5d",
+  "f3": "52395ba65ec90e12",
+  "f3s": "dbc45ff3db5633e3",
+  "readme": "6f69f49b39a8dd31",
+  "bbox": [
+   -92,
+   -68.25212947189098,
+   92,
+   68.25212947189098
+  ]
+ },
+ "art_k_passport": {
+  "mh": {
+   "base": "ede9e876811f9d54:43b656a153e20651",
+   "panel": "472fc00d88c88abe:57582e332b2fe7f0",
+   "accent": "d49a77f54327ec39:ce3506af8979c7a9",
+   "bold": "4d7122229f9cc83c:9428152c38bd401e",
+   "letters": "d0f2db44a32d0d88:646d84fff2dd8cdc"
+  },
+  "svg": "7074dd72a24b348e",
+  "f3": "b64f62d95dc63b40",
+  "f3s": "aae16d818145d072",
+  "readme": "c987f3edc605fa4f",
+  "bbox": [
+   -92,
+   -77.83333333333333,
+   92,
+   77.83333333333333
+  ]
+ },
+ "art_k_espresso": {
+  "mh": {
+   "base": "6a73786813fad00f:a1b3d9746f279c08",
+   "panel": "f447dc76a3f5f602:06eb82dd983a3a8e",
+   "accent": "851b62fca64e464f:b78671abef5bf4e5",
+   "bold": "a95c791c228c4d83:7c5ec5d44f0e4a3b",
+   "letters": "7a6e38f215a21286:4e412ebbac7070e3"
+  },
+  "svg": "79e4c8e5e63ac9a5",
+  "f3": "b220ce5993f82537",
+  "f3s": "c4bdb3c7a2f0f845",
+  "readme": "5728f08d46724721",
+  "bbox": [
+   -92,
+   -69.80716723549489,
+   92,
+   69.80716723549489
+  ]
+ }
+}
