@@ -41,7 +41,7 @@
  <metadata name="CreationDate">${today}</metadata>
  <metadata name="ModificationDate">${today}</metadata>
  <metadata name="Title">${name}</metadata>
- <metadata name="Designer">Nameplate Maker by Creative Lab Studios</metadata>
+ <metadata name="Designer">Charleston3D Nameplate Maker</metadata>
  <resources>
   <object id="${top}" p:UUID="${uuid(top, 2)}" type="model">
    <components>

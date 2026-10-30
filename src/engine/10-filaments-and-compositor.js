@@ -330,7 +330,7 @@
     lines.push("  Plate              textured or smooth PEI, cleaned with dish soap; glue stick not needed");
     lines.push("", "Mounting: 3M Command strips or double-sided foam tape on the back. Colours on screen are");
     lines.push("Polymaker's published swatch values; real filament can look slightly different.");
-    lines.push("", "Made with Nameplate Maker by Creative Lab Studios.");
+    lines.push("", "Made with the Charleston3D Nameplate Maker.");
     return lines.join("\r\n") + "\r\n";
   };
 

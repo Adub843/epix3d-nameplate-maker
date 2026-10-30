@@ -281,6 +281,6 @@
       "  Use 100% infill (or set the white part to solid) so no infill pattern shows when lit. Print face up; the grooves",
       "  are short bridges and need no supports.",
     ].join("\r\n");
-    const at = txt.lastIndexOf("Made with Nameplate Maker by Creative Lab Studios.");
+    const at = txt.lastIndexOf("Made with the Charleston3D Nameplate Maker.");
     return at >= 0 ? txt.slice(0, at) + sec + "\r\n\r\n" + txt.slice(at) : txt + "\r\n" + sec + "\r\n";
   };

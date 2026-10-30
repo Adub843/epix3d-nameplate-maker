@@ -468,7 +468,7 @@
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <model unit="millimeter" xml:lang="en-US" xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02"${bambu ? ` xmlns:BambuStudio="http://schemas.bambulab.com/package/2021"` : ""}>
 <metadata name="Title">${esc(title || "Nameplate")}</metadata>
-<metadata name="Application">${bambu ? "BambuStudio-02.07.01.57" : "Nameplate Maker by Creative Lab Studios"}</metadata>
+<metadata name="Application">${bambu ? "BambuStudio-02.07.01.57" : "Charleston3D Nameplate Maker"}</metadata>
 ${bambu ? `<metadata name="BambuStudio:3mfVersion">1</metadata>\n` : ""}<resources>
 ${bambu ? "" : `<basematerials id="${top + 1}">${fil.map((c, i) => `<base name="Filament ${i + 1}" displaycolor="${c}FF"/>`).join("")}</basematerials>`.replace(/^/, "")}
 ${bambu ? objs : objs.replace(/ pid="1"/g, ` pid="${top + 1}"`)}

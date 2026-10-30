@@ -7,7 +7,7 @@
     "build": "node scripts/build.mjs",
     "serve": "node scripts/serve.mjs",
     "dev": "npm run build && npm run serve",
-    "test": "npm run build && node --test test/",
+    "test": "npm run build && node --test \"test/*.test.mjs\"",
     "test:snapshots": "npm run build && node scripts/snapshots.mjs --check",
     "test:e2e": "npm run build && playwright test",
     "check": "npm test && npm run test:e2e"

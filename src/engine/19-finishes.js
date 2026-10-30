@@ -97,7 +97,7 @@
     if (F) {
       const fine = F.base || F.relief;
       const sec = `FINISH STYLE: ${F.label}\n${F.note}\n` + (fine ? `Tip: the smooth bevels are built from fine steps. Print at 0.12 to 0.16 mm layer height (or use Bambu Studio's adaptive layer height) for the smoothest polished edges. 0.20 mm still works, with slightly visible steps.\n` : `Tip: square edges print cleanly at any layer height; 0.20 mm is fine.\n`);
-      const at = txt.lastIndexOf("Made with Nameplate Maker by Creative Lab Studios.");
+      const at = txt.lastIndexOf("Made with the Charleston3D Nameplate Maker.");
       txt = at >= 0 ? txt.slice(0, at) + sec + "\n" + txt.slice(at) : txt + "\n\n" + sec;
     }
     return txt;

@@ -147,7 +147,7 @@
   NP.ARTFRAMES = [];
   NP.addArtFrame = (key, a) => {
     NP.registerArt(key, a); if (!NP.ARTFRAMES.includes(key)) NP.ARTFRAMES.push(key);
-    DESIGNS[key] = { label: a.label, note: a.note || "Designed in Kittl", layered: true, art: true, font: a.font || "varsity", slots: FRAME_SLOTS, labels: Object.assign({}, FRAME_LABELS, a.labels || {}), itemSlot: "accent", itemTop: 1.25, make: artMake(key) };
+    DESIGNS[key] = { label: a.label, note: a.note || "Template", layered: true, art: true, font: a.font || "varsity", slots: FRAME_SLOTS, labels: Object.assign({}, FRAME_LABELS, a.labels || {}), itemSlot: "accent", itemTop: 1.25, make: artMake(key) };
     PALETTES["art_" + key] = Object.assign({ label: a.label + " (as designed)", frame: true }, a.palette);
   };
   // Kittl frame templates, flattened to Polymaker colours. The data lives in data/art-frames.json;
