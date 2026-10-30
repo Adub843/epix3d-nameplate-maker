@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nameplate Maker | Charleston3D</title>
+<meta name="description" content="Design a custom 3D printed nameplate: type a name, pick a style and colors, see a design preview, and download a print-ready .3mf or .stl. Made in Charleston, SC by Charleston3D.">
+<meta name="theme-color" content="#1d2f52">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Nameplate Maker">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nameplate Maker | Charleston3D">
+<meta property="og:description" content="Design a custom 3D printed nameplate: type a name, pick a style and colors, see a design preview, and download a print-ready .3mf or .stl. Made in Charleston, SC by Charleston3D.">
+<meta property="og:image" content="icons/icon-512.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="app" id="app" data-panel="designs">
+  <header class="topbar">
+    <a class="brand" href="./"><img src="img/brand/c3d-logo.png" alt="" width="36" height="36"><span><b>Nameplate Maker</b><small>Charleston3D</small></span></a>
+    <span class="sel" id="sel-title"></span>
+    <div class="top-actions">
+      <button class="small" type="button" id="install" hidden>Install app</button>
+      <button class="btn top-save" type="button" id="go-save">Download</button>
+    </div>
+  </header>
+
+  <nav class="rail" aria-label="Tools">
+    <button class="rail-btn" type="button" id="mode-tpl" data-panel="designs" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Designs</span></button>
+    <button class="rail-btn" type="button" id="mode-blank" data-panel="blank" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3"/></svg><span>Blank</span></button>
+    <button class="rail-btn" type="button" data-panel="text" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14M12 6v13M9 19h6"/></svg><span>Text</span></button>
+    <button class="rail-btn" type="button" data-panel="uploads" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg><span>Uploads</span></button>
+    <button class="rail-btn" type="button" data-panel="library" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 17l-5-5-9 8"/></svg><span>Library</span></button>
+    <button class="rail-btn phone-only" type="button" data-panel="props" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>Edit</span></button>
+  </nav>
+
+  <aside class="drawer" aria-label="Tool panel">
+    <div class="drawer-panel" data-for="designs">
+    <div id="tpl" class="rack-group">
+      <section class="rack-group" aria-labelledby="cats-h">
+        <div class="rack-head"><h2 id="cats-h">Categories</h2><span class="label">pick a category, then a subject</span></div>
+        <div class="cat-tabs" id="cat-tabs" role="tablist" aria-label="Categories"></div>
+        <div class="groups sub-tabs" id="chips" aria-label="Subjects"></div>
+      </section>
+
+      <section class="rack-group" aria-labelledby="kittl-h">
+        <div class="rack-head"><h2 id="kittl-h">Templates</h2><span class="label" id="kittl-sub">realistic designs &#xb7; your name goes in the panel &#xb7; 4 colors</span></div>
+        <div class="rack kittl" id="rack-kittl" role="radiogroup" aria-labelledby="kittl-h"></div>
+      </section>
+      <section class="rack-group" aria-labelledby="mine-h" id="mine-group" hidden>
+        <div class="rack-head"><h2 id="mine-h">My designs</h2><span class="label" id="mine-sub">your imported designs for this category &#xb7; tap one to open it</span></div>
+        <div class="rack ideas mine" id="mine"></div>
+      </section>
+      <section class="rack-group" aria-labelledby="ideas-h" id="ideas-group" hidden>
+        <div class="rack-head"><h2 id="ideas-h">10 ideas</h2><span class="label">tap one to load it, then make it yours</span></div>
+        <div class="rack ideas" id="ideas"></div>
+      </section>
+
+      <details class="rack-group legacy" id="legacy">
+      <summary class="rack-head"><h2>More builder styles</h2><span class="label">the original shape-built styles: frames, car fronts, signs, fun and simple plates</span></summary>
+      <section class="rack-group" aria-labelledby="frame-h">
+        <div class="rack-head"><h2 id="frame-h">Themed frames</h2><span class="label">your subject built into the frame &#xb7; blank center for the name &#xb7; 3&#x2013;4 colors</span></div>
+        <div class="rack" id="rack-frame" role="radiogroup" aria-labelledby="frame-h"></div>
+      </section>
+      <section class="rack-group" aria-labelledby="veh-h" id="veh-group" hidden>
+        <div class="rack-head"><h2 id="veh-h">Front-end plates</h2><span class="label">your name in the grille &#xb7; '50s to today &#xb7; 5&#x2013;6 colors</span></div>
+        <div class="rack veh" id="rack-veh" role="radiogroup" aria-labelledby="veh-h"></div>
+      </section>
+      <section class="rack-group" aria-labelledby="ref-h">
+        <div class="rack-head"><h2 id="ref-h">Refined styles</h2><span class="label">simple &#xb7; elegant &#xb7; polished &#xb7; 2&#x2013;4 colors</span></div>
+        <div class="rack" id="rack-ref" role="radiogroup" aria-labelledby="ref-h"></div>
+      </section>
+      <section class="rack-group" aria-labelledby="sign-h">
+        <div class="rack-head"><h2 id="sign-h">Realistic signs</h2><span class="label">tin &#xb7; neon &#xb7; carved wood &#xb7; engraved &#xb7; 4&#x2013;5 colors</span></div>
+        <div class="rack" id="rack-sign" role="radiogroup" aria-labelledby="sign-h"></div>
+      </section>
+      <section class="rack-group" aria-labelledby="fun-h">
+        <div class="rack-head"><h2 id="fun-h">Fun styles</h2><span class="label">4&#x2013;5 colors &#xb7; multi-color printer</span></div>
+        <div class="rack" id="rack-fun" role="radiogroup" aria-labelledby="fun-h"></div>
+      </section>
+      <section class="rack-group" aria-labelledby="simple-h">
+        <div class="rack-head"><h2 id="simple-h">Simple styles</h2><span class="label">2 colors &#xb7; one filament swap</span></div>
+        <div class="rack simple" id="rack-simple" role="radiogroup" aria-labelledby="simple-h"></div>
+      </section>
+      </details>
+    </div>
+    </div>
+    <div class="drawer-panel" data-for="blank" hidden>
+    <section id="blank" class="blank" aria-label="Blank plate tools" hidden>
+      <div class="panel">
+        <h3>Plate shape</h3>
+        <div class="shapes" id="shapes" role="radiogroup" aria-label="Plate shape"></div>
+        <div class="toggles"><label><input type="checkbox" id="b-border" checked> Raised border</label></div>
+        <div class="row"><label class="label" for="b-borderw">Border width</label><span class="val" id="b-borderw-v"></span><input type="range" id="b-borderw" min="1.5" max="8" step="0.5" value="3"></div>
+        <div class="row"><label class="label" for="b-tsize">Name size</label><span class="val" id="b-tsize-v"></span><input type="range" id="b-tsize" min="0" max="60" step="1" value="0"></div>
+        <div class="btnrow"><button class="small" type="button" id="b-center">Center the text</button><span class="label">or drag it in Arrange</span></div>
+      </div>
+      <div class="panel">
+        <h3>Image</h3>
+        <div class="drop" id="drop" tabindex="0" role="button" aria-label="Add an image: drop it here or press to choose a file">
+          <b>Drop an image here</b><span class="label">or tap to choose &#xb7; PNG, JPG, SVG, WebP</span>
+          <input type="file" id="file" accept="image/*" hidden>
+        </div>
+        <div id="img-tools" hidden style="display:grid;gap:10px">
+          <div class="imgrow"><canvas id="img-prev" width="120" height="120" aria-label="How the image will print"></canvas>
+            <div style="display:grid;gap:8px">
+              <div class="seg" role="group" aria-label="Image colors"><button type="button" data-lv="1" aria-pressed="true">1 color</button><button type="button" data-lv="2" aria-pressed="false">2 colors</button><button type="button" data-lv="3" aria-pressed="false">3 colors</button></div>
+              <div class="toggles"><label><input type="checkbox" id="i-invert"> Invert</label><button class="small danger" type="button" id="i-remove">Remove image</button></div>
+            </div>
+          </div>
+          <div class="row"><label class="label" for="i-thr">Threshold</label><span class="val" id="i-thr-v"></span><input type="range" id="i-thr" min="10" max="245" step="1" value="128"></div>
+          <div class="row"><label class="label" for="i-size">Image width</label><span class="val" id="i-size-v"></span><input type="range" id="i-size" min="10" max="240" step="1" value="50"></div>
+          <div class="row"><label class="label" for="i-thick">Thicken thin lines</label><span class="val" id="i-thick-v"></span><input type="range" id="i-thick" min="0" max="1.2" step="0.1" value="0.2"></div>
+          <p class="label" style="margin:0">Drag the image in Arrange to move it. Use artwork you own or have permission to print.</p>
+        </div>
+      </div>
+    </section>
+    </div>
+    <div class="drawer-panel" data-for="text" hidden>
+      <h2 class="panel-title">Text</h2>
+    <section class="inputs" id="inputs" aria-label="Plate text">
+      <div class="field f-name">
+        <label class="label" for="name">Name on the plate</label>
+        <input type="text" id="name" value="Jackson" maxlength="24" autocomplete="off">
+      </div>
+      <div class="field f-sub">
+        <label class="label" for="sub">Second line <span class="opt">optional</span></label>
+        <input type="text" id="sub" value="" maxlength="28" autocomplete="off" placeholder="e.g. Est. 2026, Coach, Man Cave">
+      </div>
+      <div class="field tpl-only">
+        <label class="label" for="subject">Subject</label>
+        <input type="text" id="subject" value="Basketball" maxlength="40" autocomplete="off" placeholder="e.g. jazz, sci-fi, trucks">
+      </div>
+      <div class="field tpl-only">
+        <label class="label" for="number">Jersey #</label>
+        <input type="text" id="number" value="23" maxlength="3" inputmode="numeric" autocomplete="off">
+      </div>
+    </section>
+        <div class="field"><label class="label" for="font">Lettering</label>
+          <select id="font"><option value="auto">Style default</option><option value="round">Rounded</option><option value="block">Block</option><option value="sport">Italic</option><option value="varsity">Varsity serif</option></select></div>
+        <div class="toggles"><label><input type="checkbox" id="upper" checked> All caps</label></div>
+    </div>
+    <div class="drawer-panel" data-for="uploads" hidden>
+      <h2 class="panel-title">Uploads</h2>
+      <div class="drops">
+    <div class="drop photo" id="photo-drop" tabindex="0" role="button" aria-label="Make a nameplate from a photo: drop a photo here or press to choose one">
+      <b>Make a nameplate from a photo</b>
+      <span class="label">drop a photo of your car, pet, logo&#x2026; or tap to choose &#xb7; it's traced into a 3-color relief in matching Polymaker colors</span>
+      <input type="file" id="photo-file" accept="image/*" hidden>
+    </div>
+    <div class="drop import" id="import-drop" tabindex="0" role="button" aria-label="Add a nameplate design you made elsewhere: drop images here or press to choose">
+      <b>Add your own design</b>
+      <span class="label">drop a picture of a nameplate you designed anywhere &#xb7; it finds the closest Polymaker colors, then you pick its category</span>
+      <input type="file" id="import-file" accept="image/*" multiple hidden>
+    </div>
+      </div>
+    </div>
+    <div class="drawer-panel" data-for="library" hidden>
+      <h2 class="panel-title">Image library</h2>
+      <p class="label">Art from the Charleston3D library. Add a picture to a blank plate, or trace it into a multi-color plate.</p>
+      <button class="btn" type="button" id="lib-open">Browse the image library</button>
+    </div>
+  </aside>
+
+  <main class="canvas" aria-label="Design">
+    <div class="tabs" role="tablist">
+      <button class="tab" id="tab-arrange" role="tab" aria-selected="true">Arrange</button>
+      <button class="tab" id="tab-3d" role="tab" aria-selected="false">3D</button>
+      <span class="preview-label">Design preview</span>
+    </div>
+      <div class="stage" id="stage">
+        <div class="arrange" id="arrange"></div>
+        <span class="hint" id="hint">Tap an item to select it &#xb7; drag to move</span>
+        <span class="busy" id="busy" role="status" aria-live="polite" hidden>Building&#x2026;</span>
+      </div>
+    <div class="status" id="status" role="status"></div>
+  </main>
+
+  <aside class="props" id="props" aria-label="Settings">
+      <div class="panel" id="colors-panel">
+        <div class="icon-head"><h3>Polymaker colors</h3><span class="label">PolyLite PLA &#xb7; PLA Pro</span></div>
+        <div class="icon-head"><span class="label">Most filaments per plate</span><div class="seg" role="group" aria-label="Most filaments per plate" id="maxc"><button type="button" data-n="4" aria-pressed="true">4 colors</button><button type="button" data-n="5" aria-pressed="false">5 colors</button></div></div>
+        <div class="palettes" id="palettes" aria-label="Palettes"></div>
+        <div class="colors" id="colors"></div>
+        <div class="picker" id="picker" hidden>
+          <div class="icon-head"><b id="picker-title">Choose a filament</b>
+            <div class="seg" role="group" aria-label="Filament line"><button type="button" data-line="pla" aria-pressed="true">PolyLite PLA</button><button type="button" data-line="pro" aria-pressed="false">PLA Pro</button></div></div>
+          <div class="pmgrid" id="pmgrid"></div>
+          <div class="btnrow"><button class="small" type="button" id="picker-close">Done</button></div>
+        </div>
+        <div class="plan" id="filaments"></div>
+      </div>
+      <div class="panel" id="size-panel">
+        <h3>Overall size</h3>
+        <div class="field"><label class="label" for="preset">Size preset</label>
+          <select id="preset">
+            <option value="">Custom</option>
+            <option value="120x40">Locker or desk tag &#xb7; 120 &#xd7; 40 mm</option>
+            <option value="150x50">Desk &#xb7; 150 &#xd7; 50 mm</option>
+            <option value="170x0">Standard &#xb7; 170 mm wide</option>
+            <option value="200x70">Door &#xb7; 200 &#xd7; 70 mm</option>
+            <option value="220x0">Bedroom door &#xb7; 220 mm wide</option>
+            <option value="250x0">Garage wall &#xb7; 250 mm wide</option>
+            <option value="175x0">Fits an A1 mini bed &#xb7; 175 mm wide</option>
+          </select></div>
+        <div class="row"><label class="label" for="width">Width</label><span class="val"><input type="number" id="width-n" min="60" max="300" step="1" aria-label="Width in mm"> mm</span><input type="range" id="width" min="60" max="300" step="5" value="170" aria-label="Width"></div>
+        <div class="toggles"><label><input type="checkbox" id="h-auto" checked> Auto height (keeps the style's shape)</label></div>
+        <div class="row" id="h-row"><label class="label" for="height">Height</label><span class="val"><input type="number" id="height-n" min="20" max="250" step="1" aria-label="Height in mm"> mm</span><input type="range" id="height" min="20" max="250" step="1" value="60" aria-label="Height"></div>
+        <div class="row"><label class="label" for="base">Base thickness</label><span class="val" id="base-v"></span><input type="range" id="base" min="2" max="5" step="0.2" value="3"></div>
+        <div class="row"><label class="label" for="raise">Relief height</label><span class="val" id="raise-v"></span><input type="range" id="raise" min="0.6" max="2.4" step="0.2" value="1.2"></div>
+        <dl class="specs" id="specs"></dl>
+        <div class="warn" id="warn" hidden></div>
+      </div>
+      <div class="panel" id="emblem-panel">
+        <div class="icon-head"><h3 id="emblem-h">Emblem</h3><select id="icon" aria-label="More emblems"></select></div>
+        <div class="iconrow" id="icons" role="radiogroup" aria-labelledby="emblem-h"></div>
+      </div>
+      <div class="panel" id="parts-panel" hidden>
+        <div class="icon-head"><h3 id="parts-h">Frame parts</h3><span class="label">tap a part here or on the plate &#xb7; drag it to move</span></div>
+        <div id="part-chips" role="group" aria-labelledby="parts-h" style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px"></div>
+        <div id="part-edit" hidden style="display:grid;gap:10px;margin-top:10px">
+          <div class="row"><label class="label" for="part-size">Size</label><span class="val" id="part-size-v"></span><input type="range" id="part-size" min="50" max="200" step="5" value="100"></div>
+          <div class="field" id="part-icon-f"><label class="label" for="part-icon">Emblem</label><select id="part-icon"></select></div>
+          <div class="field" id="part-color-f"><span class="label" id="part-color-l">Color</span>
+            <div id="part-colors" role="radiogroup" aria-labelledby="part-color-l" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+            <button class="small" type="button" id="part-filament" style="justify-self:start">Change this filament&#x2026;</button></div>
+          <div class="btnrow"><button class="small" type="button" id="part-nudge-l" aria-label="Nudge left">&#x25c0;</button><button class="small" type="button" id="part-nudge-u" aria-label="Nudge up">&#x25b2;</button><button class="small" type="button" id="part-nudge-d" aria-label="Nudge down">&#x25bc;</button><button class="small" type="button" id="part-nudge-r" aria-label="Nudge right">&#x25b6;</button>
+            <button class="small" type="button" id="part-hide">Hide</button><button class="small" type="button" id="part-reset">Reset</button></div>
+        </div>
+        <div class="btnrow" style="margin-top:8px"><button class="small" type="button" id="parts-undo" disabled>Undo</button><button class="small" type="button" id="parts-reset-all">Reset all parts</button></div>
+      </div>
+      <div class="panel" id="badge-panel" hidden>
+        <div class="icon-head"><h3 id="badge-h">Hood badge</h3><span class="label">generic badges, or your own initial</span></div>
+        <div class="seg" id="badges" role="group" aria-labelledby="badge-h"></div>
+      </div>
+      <div class="panel" id="finish-panel">
+        <div class="icon-head"><h3 id="finish-h">Finish style</h3><span class="label">applies to every design &#xb7; change it any time</span></div>
+        <div class="finishes" id="finishes" role="radiogroup" aria-labelledby="finish-h"></div>
+      </div>
+      <div class="panel" id="tools-panel">
+        <div class="icon-head"><h3>Toolbox</h3><input type="search" id="tool-q" placeholder="Search all items" aria-label="Search toolbox items"></div>
+        <div class="tools" id="tools"></div>
+        <div id="item-edit" hidden style="display:grid;gap:10px">
+          <div class="icon-head"><b id="item-name">Item</b>
+            <div class="seg" role="group" aria-label="Raised or cut in"><button type="button" id="mode-add" aria-pressed="true">Raised</button><button type="button" id="mode-cut" aria-pressed="false">Cut in</button></div>
+          </div>
+          <div class="row"><label class="label" for="item-size">Size</label><span class="val" id="item-size-v"></span><input type="range" id="item-size" min="6" max="60" step="1" value="14"></div>
+          <div class="row"><label class="label" for="item-rot">Rotate</label><span class="val" id="item-rot-v"></span><input type="range" id="item-rot" min="-180" max="180" step="5" value="0"></div>
+          <div class="field" id="item-color-f"><label class="label" for="item-color">Color</label><select id="item-color"></select></div>
+          <div class="btnrow"><button class="small" type="button" id="item-dup">Duplicate</button><button class="small danger" type="button" id="item-del">Remove</button></div>
+        </div>
+        <div class="toggles" id="features">
+          <label><input type="checkbox" id="f-frame" checked> Frame</label>
+          <label><input type="checkbox" id="f-emblem" checked> Emblem</label>
+          <label><input type="checkbox" id="f-burst" checked> Starburst</label>
+          <label><input type="checkbox" id="f-rays" checked> Rays</label>
+          <label><input type="checkbox" id="f-confetti" checked> Confetti</label>
+          <label><input type="checkbox" id="f-glare" checked> Windshield glare</label>
+        </div>
+      </div>
+      <div class="panel" id="plate-panel">
+        <div class="icon-head"><h3 id="plate-h">Backplate</h3><span class="label">optional plate behind the design &#xb7; any size</span></div>
+        <div class="toggles"><label><input type="checkbox" id="bp-on"> Add a backplate</label></div>
+        <div id="bp-opts" hidden>
+          <div class="field"><label class="label" for="bp-shape">Shape</label><select id="bp-shape"><option value="rect">Rounded rectangle</option><option value="oval">Oval</option><option value="outline">Follow the outline</option></select></div>
+          <div class="row"><label class="label" for="bp-pad">Padding</label><span class="val" id="bp-pad-v"></span><input type="range" id="bp-pad" min="2" max="40" step="1" value="8"></div>
+          <div class="row bp-fixed"><label class="label" for="bp-w">Plate width</label><span class="val" id="bp-w-v"></span><input type="range" id="bp-w" min="0" max="400" step="5" value="0"></div>
+          <div class="row bp-fixed"><label class="label" for="bp-h">Plate height</label><span class="val" id="bp-h-v"></span><input type="range" id="bp-h" min="0" max="300" step="5" value="0"></div>
+          <div class="row"><label class="label" for="bp-scale">Design scale</label><span class="val" id="bp-scale-v"></span><input type="range" id="bp-scale" min="40" max="100" step="1" value="100"></div>
+          <div class="row"><label class="label" for="bp-thick">Thickness</label><span class="val" id="bp-thick-v"></span><input type="range" id="bp-thick" min="1.5" max="8" step="0.5" value="3"></div>
+          <div class="row" id="bp-radius-row"><label class="label" for="bp-radius">Corner radius</label><span class="val" id="bp-radius-v"></span><input type="range" id="bp-radius" min="0" max="40" step="1" value="8"></div>
+          <div class="field"><label class="label" for="bp-slot">Plate color</label><select id="bp-slot"></select></div>
+          <div class="field"><label class="label" for="bp-holes">Hanging</label><select id="bp-holes"><option value="none">None (stand or tape)</option><option value="keyhole">Keyholes in the back</option><option value="screw">Screw holes</option></select></div>
+          <div class="btnrow"><button class="small" type="button" id="bp-auto">Auto size</button></div>
+          <p class="label" id="bp-info" style="margin:6px 0 0"></p>
+        </div>
+      </div>
+      <div class="panel" id="light-panel" hidden>
+        <div class="icon-head"><h3 id="light-h">Backlight (EL wire)</h3><span class="label">glowing white name panel</span></div>
+        <div class="toggles"><label><input type="checkbox" id="lit"> Make the name panel a light window with an EL wire groove in the back</label></div>
+        <div class="field" id="lit-opts" hidden><label class="label" for="lit-wire">EL wire size</label>
+          <select id="lit-wire"><option value="2.3">2.3 mm (standard)</option><option value="2.6" selected>2.6 mm</option><option value="3.2">3.2 mm (bright / thick)</option></select>
+          <p class="label" id="lit-info" style="margin:6px 0 0"></p></div>
+      </div>
+      <div class="panel" id="print-panel">
+        <h3>Print check</h3>
+        <div id="printcheck" class="printcheck" aria-live="polite"><p class="label">Checks after each change.</p></div>
+      </div>
+      <div class="panel" id="mesh-panel">
+        <h3>Mesh check</h3>
+        <div id="mesh" style="overflow-x:auto"><p class="label" style="margin:0">Builds after each change.</p></div>
+      </div>
+      <div class="panel export" id="export-panel">
+        <h3>Download</h3>
+        <button class="btn" id="save">Save for Bambu Studio + README</button>
+      <button class="btn alt" id="save-std">Save standard 3MF + README (Prusa, Orca, Cura)</button>
+      <button class="btn alt" id="save-stl">Save STL (one part, any slicer)</button>
+      <button class="btn alt" id="save-readme">Save the README only</button>
+      </div>
+    <details class="panel notes" id="notes-panel">
+      <summary>Printing it</summary>
+      <ul>
+        <li>Every plate is held to 4 filaments (or 5 if you switch it): when a design or your picks would need more, the least-used colors share the nearest remaining filament, and the swatch says "shared".</li>
+        <li>Each color is a separate part. The Bambu file opens with every part already assigned to filament slots 1, 2, 3&#x2026;; load your AMS in the order shown under Polymaker colors.</li>
+        <li>The README that comes with each save lists every part's Polymaker filament and color, the grams it needs, and Polymaker's recommended nozzle, bed, speed, fan, retraction and drying settings.</li>
+        <li>Print flat, face up, 0.4 mm nozzle, 0.2 mm layers (0.12 mm for small letters). No supports.</li>
+        <li id="save-note">Saving gives you the .3mf and a README.txt. On a phone it opens the share sheet so you can send both to Files, AirDrop or your printer app. The STL is the whole plate as one part, for single-color printing.</li>
+        <li>Vehicle front ends are original era-styled designs. They don't reproduce any carmaker's badge or a specific model's grille, and the TV themes use genre art rather than show logos or characters.</li>
+      </ul>
+      <details id="chart-box"><summary>Polymaker color chart and print settings</summary><div class="chart" id="chart"></div></details>
+    </details>
+  </aside>
+</div>
+
+  <dialog class="imp" id="imp-dlg" aria-labelledby="imp-h">
+    <div class="imp-wrap">
+      <div class="imp-head"><h2 id="imp-h">Your design</h2><button class="small" type="button" id="imp-close">Close</button></div>
+      <div class="imp-body">
+        <div class="imp-imgs">
+          <figure><img id="imp-orig" alt="Your design as uploaded"><figcaption>Your image</figcaption></figure>
+          <figure><canvas id="imp-match" aria-label="Your design shown in the matched Polymaker colors"></canvas><figcaption>In matched Polymaker colors</figcaption></figure>
+        </div>
+        <div class="imp-side">
+          <div class="field"><label class="label" for="imp-title">Name</label><input type="text" id="imp-title" maxlength="40"></div>
+          <div class="field"><label class="label" for="imp-cat">Category</label><select id="imp-cat"></select></div>
+          <div class="icon-head"><span class="label" id="imp-cols-l">Closest Polymaker filaments</span>
+            <div class="seg" id="imp-n" role="group" aria-label="How many filaments"><button type="button" data-n="2" aria-pressed="false">2</button><button type="button" data-n="3" aria-pressed="false">3</button><button type="button" data-n="4" aria-pressed="true">4</button><button type="button" data-n="5" aria-pressed="false">5</button></div></div>
+          <div id="imp-cols" style="display:grid;gap:8px" aria-labelledby="imp-cols-l"></div>
+          <p class="label" id="imp-note" style="margin:0"></p>
+          <div class="imp-actions" id="imp-actions"></div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+<script src="vendor/three.min.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/jobs.js"></script>
+<script src="js/library.js"></script>
+<script src="js/app.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/install.js"></script>
+</body>
+</html>
