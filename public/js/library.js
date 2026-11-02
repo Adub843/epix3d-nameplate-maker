@@ -28,9 +28,11 @@
     }));
   }
 
-  // one image as a File, ready for the same tools as an upload
+  // one image as a File, ready for the same tools as an upload. "no-store": the library's files are
+  // cached for a year, and a copy cached by a plain <img> elsewhere carries no CORS header, so a
+  // cached read here would be refused.
   async function load(item, base = baseUrl(), fetchFn = fetch) {
-    const res = await fetchFn(fileUrl(base, item.key));
+    const res = await fetchFn(fileUrl(base, item.key), { cache: "no-store" });
     if (!res.ok) throw new Error(`The image could not be loaded (${res.status}).`);
     const blob = await res.blob();
     const type = TYPES[blob.type] ? blob.type : item.type;
@@ -90,7 +92,8 @@
     dlg._item = item;
     const pick = dlg.querySelector("#lib-pick");
     pick.hidden = !item; if (!item) return;
-    dlg.querySelector("#lib-pick-img").src = fileUrl(baseUrl(), item.key);
+    const img = dlg.querySelector("#lib-pick-img");
+    img.crossOrigin = "anonymous"; img.src = fileUrl(baseUrl(), item.key);
     dlg.querySelector("#lib-pick-name").textContent = item.name;
     for (const b of dlg.querySelectorAll("#lib-grid [data-key]")) b.setAttribute("aria-pressed", String(b.dataset.key === item.key));
   }
@@ -100,7 +103,7 @@
     const shown = (cache || []).filter((i) => matches(i, q, cat));
     const base = baseUrl();
     dlg.querySelector("#lib-grid").innerHTML = shown.slice(0, 300).map((i) =>
-      `<button type="button" class="lib-card" data-key="${esc(i.key)}" aria-pressed="false" title="${esc(i.name)}"><img loading="lazy" alt="" src="${esc(fileUrl(base, i.key))}"><span>${esc(i.name)}</span></button>`).join("");
+      `<button type="button" class="lib-card" data-key="${esc(i.key)}" aria-pressed="false" title="${esc(i.name)}"><img loading="lazy" crossorigin="anonymous" alt="" src="${esc(fileUrl(base, i.key))}"><span>${esc(i.name)}</span></button>`).join("");
     dlg.querySelector("#lib-status").textContent = cache ? `${shown.length} image${shown.length === 1 ? "" : "s"}` + (shown.length > 300 ? ", first 300 shown: search to narrow" : "") : "";
   }
 
