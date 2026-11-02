@@ -28,8 +28,10 @@ test("library list reports a refusal", async () => {
 test("library load returns a named File with the right type", async () => {
   let asked = null;
   const png = new Uint8Array([0x89, 0x50, 0x4e, 0x47]);
-  const file = await lib.load({ key: "a b/1", name: "Rainbow Row", type: "image/png" }, BASE, async (url) => { asked = url; return reply(png, { headers: { "content-type": "image/png" } }); });
+  let opts = null;
+  const file = await lib.load({ key: "a b/1", name: "Rainbow Row", type: "image/png" }, BASE, async (url, o) => { asked = url; opts = o; return reply(png, { headers: { "content-type": "image/png" } }); });
   assert.equal(asked, `${BASE}/api/images/a%20b%2F1`);
+  assert.equal(opts.cache, "no-store", "skips copies cached without CORS");
   assert.equal(file.name, "Rainbow-Row.png"); assert.equal(file.type, "image/png"); assert.equal(file.size, 4);
   await assert.rejects(lib.load({ key: "x", name: "x", type: "image/png" }, BASE, async () => reply("", { status: 404 })), /404/);
 });
