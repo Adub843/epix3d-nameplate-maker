@@ -1,4 +1,4 @@
-// Image library: the public art in the business console's library (GET /api/images?public=1).
+// Image library: the public art in the Creative Lab engine's library (GET /api/images?public=1).
 // The console allows reads from this site's address (https://adub843.github.io is on its list);
 // another address needs adding to the console's BUILDER_ORIGINS. The library's address can be
 // changed with <meta name="image-library" content="https://...">.
@@ -7,7 +7,7 @@
 // to a blank plate) or "plate" (trace it into a full multi-color plate).
 (function (root) {
   "use strict";
-  const DEFAULT_URL = "https://business-console.business-console.workers.dev";
+  const DEFAULT_URL = "https://creative-lab-engine.business-console.workers.dev";
   const TYPES = { "image/png": "png", "image/jpeg": "jpg", "image/webp": "webp", "image/gif": "gif", "image/svg+xml": "svg" };
 
   function baseUrl() {

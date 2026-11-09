@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 
-const LIBRARY = "https://business-console.business-console.workers.dev";
+const LIBRARY = "https://creative-lab-engine.business-console.workers.dev";
 const phone = (testInfo) => testInfo.project.name === "phone";
 
 // collect console errors, fail the test on any; wait for the first design and its print check

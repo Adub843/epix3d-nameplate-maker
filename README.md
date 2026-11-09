@@ -56,7 +56,7 @@ If a change is meant to alter what a design looks like or exports, update the sn
 
 ## Image library
 
-The **Library** tool lists the public images from the business console
+The **Library** tool lists the public images from the Creative Lab engine
 (`GET /api/images?public=1`) and loads each from `/api/images/<key>`. The console already allows
 reads from `https://adub843.github.io`. When the maker moves to its own address (for example on
 epix3d.com), add that address to the console's `BUILDER_ORIGINS` secret, and point the maker at
